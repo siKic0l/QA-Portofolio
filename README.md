@@ -1,4 +1,4 @@
-# 🧪 Quality Assurance Portfolio
+# Quality Assurance Portfolio
 
 Welcome to my Quality Assurance Portfolio.
 
@@ -8,7 +8,7 @@ The portfolio is developed incrementally following the Software Testing Life Cyc
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 QA-Portfolio
@@ -25,7 +25,7 @@ QA-Portfolio
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 | Document | Description |
 |----------|-------------|
@@ -35,7 +35,7 @@ QA-Portfolio
 
 ---
 
-## 🚀 Progress
+## Progress
 
 | Phase | Status |
 |--------|--------|
@@ -48,6 +48,6 @@ QA-Portfolio
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Nurrohmi Zaki**
