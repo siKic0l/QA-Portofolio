@@ -1,25 +1,53 @@
-# QA Portfolio
+# 🧪 Quality Assurance Portfolio
 
 Welcome to my Quality Assurance Portfolio.
 
-This repository contains practical QA artifacts created while learning Software Quality Assurance.
+This repository contains QA documentation and testing artifacts created while learning Software Quality Assurance using the OrangeHRM Open Source Demo application.
 
-## Projects
+The portfolio is developed incrementally following the Software Testing Life Cycle (STLC), where each learning module contributes a new QA artifact.
 
-- OrangeHRM Demo
+---
 
-## Contents
+## 📂 Repository Structure
 
-- Manual Testing
-- API Testing
-- Database Testing
-- Automation Testing
-- CI/CD
+```text
+QA-Portfolio
+│
+├── docs
+│   ├── project-overview.md
+│   └── application-analysis.md
+│
+├── evidence
+│
+└── manual-testing
+    └── 01-test-planning
+```
 
-## Tools
+---
 
-- Qase
-- Postman
-- Selenium
-- SQL
-- GitHub Actions
+## 📖 Documentation
+
+| Document | Description |
+|----------|-------------|
+| Project Overview | Project objectives and learning roadmap |
+| Application Analysis | Functional analysis of the application under test |
+| Test Planning | Test planning documentation |
+
+---
+
+## 🚀 Progress
+
+| Phase | Status |
+|--------|--------|
+| Project Overview | ✅ |
+| Application Analysis | ✅ |
+| Test Planning | 🔄 |
+| Test Scenario | ⏳ |
+| Test Case | ⏳ |
+| Bug Report | ⏳ |
+
+---
+
+## 👨‍💻 Author
+
+**Nurrohmi Zaki**
