@@ -1,120 +1,243 @@
-# Test Plan - OrangeHRM Demo
+# Test Plan
 
 ## Project Information
 
-| Item             | Description                             |
-| ---------------- | --------------------------------------- |
-| Project          | OrangeHRM Open Source Demo              |
-| Application Type | Human Resource Management System (HRMS) |
-| Testing Type     | Manual Testing                          |
-| Tester           | Nurrohmi Zaki                           |
-| Version          | 1.0                                     |
-| Date             | July 2026                               |
+| Item | Details |
+|------|---------|
+| Project | OrangeHRM Demo |
+| Testing Type | Manual Testing |
+| Tester | Nurrohmi Zaki |
+| Version | 2.0 |
+| Status | In Progress |
 
 ---
 
-## 1. Objective
+# Version History
 
-The purpose of this test plan is to verify that the core functionalities of the OrangeHRM Demo application operate correctly and meet the expected business requirements before release.
-
----
-
-## 2. Scope
-
-### In Scope
-
-* User Login
-* User Logout
-* Dashboard
-* Employee Management (PIM)
-
-  * Add Employee
-  * Search Employee
-  * Edit Employee
-  * Delete Employee
-
-### Out of Scope
-
-* Recruitment Module
-* Payroll Module
-* Claim Module
-* Buzz Module
-* Mobile Testing
-* Performance Testing
+| Version | Description |
+|----------|-------------|
+| 1.0 | Initial Test Plan |
+| 2.0 | Added Product Risk Analysis, Risk Mitigation Strategy, Test Prioritization, Deliverables, Assumptions, and Constraints |
 
 ---
 
-## 3. Test Strategy
+# 1. Introduction
 
-The testing activities will include:
+This document describes the overall testing strategy for the OrangeHRM Demo application.
 
-* Functional Testing
-* Smoke Testing
-* Positive Testing
-* Negative Testing
-* Basic UI Validation
-
-Testing will be performed manually using a web browser.
+The objective of this test plan is to define the testing scope, testing approach, priorities, schedule, and expected deliverables before the execution phase begins.
 
 ---
 
-## 4. Entry Criteria
+# 2. Objectives
+
+The objectives of this testing are:
+
+- Verify that core business features work correctly.
+- Detect functional defects before release.
+- Validate the application against expected business requirements.
+- Reduce product risks through structured manual testing.
+
+---
+
+# 3. Scope
+
+## In Scope
+
+The following modules will be covered:
+
+- Login
+- Forgot Password
+- Dashboard
+- Admin
+- PIM
+- Leave
+- Time
+- Recruitment
+- My Info
+- Performance
+- Directory
+- Maintenance
+- Claim
+- Buzz
+- Profile
+
+## Out of Scope
+
+The following testing activities are excluded:
+
+- Performance Testing
+- Security Testing
+- Mobile Testing
+- API Testing
+- Automation Testing
+- Source Code Review
+
+---
+
+# 4. Test Environment
+
+| Item | Details |
+|------|---------|
+| Application | OrangeHRM Demo |
+| Browser | Google Chrome (Latest Version) |
+| Internet | Stable Internet Connection |
+| Operating System | Windows 11 |
+| Tester | Nurrohmi Zaki |
+
+---
+
+# 5. Test Strategy
+
+Testing will be performed manually using a risk-based testing approach.
+
+Activities include:
+
+- Exploratory Testing
+- Functional Testing
+- Positive Testing
+- Negative Testing
+- Regression Testing (if required)
+
+Priority will be given to business-critical features.
+
+---
+
+# 6. Entry Criteria
 
 Testing can begin when:
 
-* The application is accessible.
-* The test environment is available.
-* A valid administrator account is available.
-* Test data has been prepared.
+- The application is accessible.
+- Test environment is ready.
+- Administrator account is available.
+- Testing scope has been defined.
+- Test Plan has been approved.
 
 ---
 
-## 5. Exit Criteria
+# 7. Exit Criteria
 
 Testing will be completed when:
 
-* All planned test cases have been executed.
-* No Critical or High severity defects remain open.
-* Test execution results have been documented.
-* Test Summary Report has been completed.
+- All planned test cases have been executed.
+- Critical defects have been reported.
+- Testing objectives have been achieved.
+- Test Summary Report has been completed.
 
 ---
 
-## 6. Test Environment
+# 8. Product Risk Analysis
 
-| Item             | Value                                      |
-| ---------------- | ------------------------------------------ |
-| Browser          | Google Chrome                              |
-| Operating System | Windows 11                                 |
-| Test URL         | https://opensource-demo.orangehrmlive.com/ |
-| User Role        | Administrator                              |
+The following risks were identified during the exploration phase.
 
----
-
-## 7. Risk Analysis
-
-| Risk                            | Impact                               |
-| ------------------------------- | ------------------------------------ |
-| Test environment unavailable    | Testing cannot be executed           |
-| Internet connection instability | Test execution may be interrupted    |
-| Requirement changes             | Existing test cases may need updates |
-| Test data inconsistency         | Test results may become unreliable   |
+| Feature | Potential Risk | Impact | Priority |
+|----------|----------------|--------|----------|
+| Login | User cannot access the system | High | High |
+| User Management | User creation or deletion fails | High | High |
+| PIM | Employee information is stored incorrectly | High | High |
+| Leave | Incorrect leave calculation | High | High |
+| Time | Attendance records are inaccurate | Medium | Medium |
+| Recruitment | Candidate information is lost | Medium | Medium |
+| Performance | KPI or review data is incorrect | Medium | Medium |
+| Buzz | Social feed cannot create posts | Low | Low |
 
 ---
 
-## 8. Test Deliverables
+# 9. Risk Mitigation Strategy
 
-The following artifacts will be produced:
-
-* Test Plan
-* Test Scenario
-* Test Case
-* Bug Report
-* Test Execution Report
-* Test Summary Report
+| Risk | Mitigation |
+|------|------------|
+| Authentication failure | Perform smoke testing before execution |
+| Employee data corruption | Prioritize CRUD and regression testing |
+| Leave calculation errors | Create positive and negative test cases |
+| Search functionality issues | Test multiple keyword combinations |
+| Configuration changes | Execute regression testing after configuration updates |
 
 ---
 
-## 9. Approval
+# 10. Test Prioritization
 
-This test plan is created for learning and portfolio purposes and does not require formal stakeholder approval.
+Testing follows a risk-based approach.
+
+## High Priority
+
+- Login
+- User Management
+- PIM
+- Leave
+
+## Medium Priority
+
+- Time
+- Recruitment
+- Performance
+- Directory
+- Maintenance
+- Claim
+
+## Low Priority
+
+- Buzz
+- Corporate Branding
+- About
+- Support
+
+---
+
+# 11. Test Deliverables
+
+The following artifacts will be produced during this project.
+
+- Test Plan
+- Application Analysis
+- Test Scenario
+- Test Cases
+- Test Data
+- Bug Reports
+- Test Execution Report
+- Test Summary Report
+
+---
+
+# 12. Assumptions
+
+The following assumptions apply during testing.
+
+- OrangeHRM Demo remains available.
+- Administrator account is accessible.
+- Stable internet connection.
+- No major system changes during testing.
+- Testing is performed using a desktop browser.
+
+---
+
+# 13. Constraints
+
+The following limitations apply.
+
+- Source code is unavailable.
+- Database access is unavailable.
+- Only publicly available demo features are tested.
+- Performance and security testing are excluded.
+
+---
+
+# 14. Test Schedule
+
+| Phase | Status |
+|--------|--------|
+| Application Analysis | Completed |
+| Test Planning | In Progress |
+| Test Scenario | Planned |
+| Test Case Design | Planned |
+| Test Execution | Planned |
+| Bug Reporting | Planned |
+| Test Summary | Planned |
+
+---
+
+# Conclusion
+
+This Test Plan provides the overall strategy for manually testing the OrangeHRM Demo application.
+
+The testing process will continue by creating detailed Test Scenarios, Test Cases, executing manual testing, documenting defects, and producing the final Test Summary Report.
