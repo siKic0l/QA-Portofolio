@@ -37,7 +37,7 @@ The purpose of this document is to verify that the Login functionality behaves a
 | TC_LOGIN_008 | Forgot Password navigation | User is redirected to Reset Password page. | Successfully redirected to Reset Password page. | ✅ PASS | evidence/Login/TC_LOGIN_008_PASS.png | - |
 | TC_LOGIN_009 | Login using Enter key | Login request is submitted successfully. | Login was successfully submitted using the Enter key. | ✅ PASS | evidence/Login/TC_LOGIN_009_PASS.png | - |
 | TC_LOGIN_010 | Username with leading/trailing spaces | Username is processed correctly. | Leading and trailing whitespace was automatically trimmed and login succeeded. | ✅ PASS | evidence/Login/TC_LOGIN_010_PASS.png | - |
-| TC_LOGIN_011 | Verify validation message state after previous failed authentication | Previous "Invalid credentials" message should be cleared, and only "Required" validation should be displayed. | Previous "Invalid credentials" message remained visible together with the "Required" validation message. | ❌ FAIL | evidence/Login/TC_LOGIN_011_FAIL.png | 05-bug-reports/login/BUG_LOGIN_001 |
+| TC_LOGIN_011 | Verify validation message state after previous failed authentication | Previous "Invalid credentials" message should be cleared, and only "Required" validation should be displayed. | Previous "Invalid credentials" message remained visible together with the "Required" validation message. | ❌ FAIL | evidence/Login/TC_LOGIN_011_FAIL.png | BUG_LOGIN_001 |
 
 ---
 
