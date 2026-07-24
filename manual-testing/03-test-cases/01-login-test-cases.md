@@ -4,11 +4,11 @@
 
 This document contains the manual test cases for the **Login** feature of the OrangeHRM Demo application.
 
-The objective is to verify that the authentication process behaves correctly under normal, invalid, and boundary conditions.
+The objective is to verify that the authentication process behaves correctly under normal, invalid, boundary, and validation state conditions.
 
 ---
 
-## Module Information
+# Module Information
 
 | Item | Value |
 |------|-------|
@@ -16,12 +16,12 @@ The objective is to verify that the authentication process behaves correctly und
 | Module | Authentication |
 | Feature | Login |
 | Test Type | Functional Testing |
-| Technique | Black Box Testing |
+| Test Technique | Black Box Testing |
 | Tester | Nurrohmi Zaki |
 
 ---
 
-## Preconditions
+# Preconditions
 
 Before executing the test cases, ensure that:
 
@@ -32,16 +32,16 @@ Before executing the test cases, ensure that:
 
 ---
 
-## Test Data
+# Test Data
 
 | Username | Password | Description |
 |----------|----------|-------------|
-| Admin | admin123 | Valid credential |
+| Admin | admin123 | Valid credentials |
 | Admin | wrongpassword | Invalid password |
 | wronguser | admin123 | Invalid username |
 | *(empty)* | admin123 | Empty username |
 | Admin | *(empty)* | Empty password |
-| *(empty)* | *(empty)* | Empty credentials |
+| *(empty)* | *(empty)* | Empty username and password |
 
 ---
 
@@ -57,20 +57,20 @@ High
 
 **Objective**
 
-Verify that users can log in using valid credentials.
+Verify that users can successfully log in using valid credentials.
 
 ### Test Steps
 
 | Step | Action |
 |------|--------|
-|1|Open OrangeHRM Login page|
-|2|Enter valid username|
-|3|Enter valid password|
-|4|Click **Login**|
+| 1 | Open the OrangeHRM Login page. |
+| 2 | Enter a valid username. |
+| 3 | Enter a valid password. |
+| 4 | Click **Login**. |
 
 ### Expected Result
 
-- User successfully logs in.
+- User is successfully authenticated.
 - Dashboard page is displayed.
 - User session is created.
 
@@ -90,16 +90,17 @@ Verify that login is rejected when the password is incorrect.
 
 | Step | Action |
 |------|--------|
-|1|Open Login page|
-|2|Enter valid username|
-|3|Enter invalid password|
-|4|Click Login|
+| 1 | Open the Login page. |
+| 2 | Enter a valid username. |
+| 3 | Enter an invalid password. |
+| 4 | Click **Login**. |
 
 ### Expected Result
 
 - Login fails.
-- Error message is displayed.
-- User remains on Login page.
+- **"Invalid credentials"** message is displayed.
+- User remains on the Login page.
+- User is not authenticated.
 
 ---
 
@@ -111,22 +112,23 @@ High
 
 **Objective**
 
-Verify that login fails when the username does not exist.
+Verify that login is rejected when the username does not exist.
 
 ### Test Steps
 
 | Step | Action |
 |------|--------|
-|1|Open Login page|
-|2|Enter invalid username|
-|3|Enter valid password|
-|4|Click Login|
+| 1 | Open the Login page. |
+| 2 | Enter an invalid username. |
+| 3 | Enter a valid password. |
+| 4 | Click **Login**. |
 
 ### Expected Result
 
 - Login fails.
-- Error message is displayed.
-- User remains on Login page.
+- **"Invalid credentials"** message is displayed.
+- User remains on the Login page.
+- User is not authenticated.
 
 ---
 
@@ -138,21 +140,21 @@ High
 
 **Objective**
 
-Verify validation when username is empty.
+Verify validation when the Username field is empty.
 
 ### Test Steps
 
 | Step | Action |
 |------|--------|
-|1|Open Login page|
-|2|Leave Username empty|
-|3|Enter password|
-|4|Click Login|
+| 1 | Open the Login page. |
+| 2 | Leave the Username field empty. |
+| 3 | Enter a valid password. |
+| 4 | Click **Login**. |
 
 ### Expected Result
 
-- Validation message appears.
-- Login is not processed.
+- **"Required"** validation message is displayed below the Username field.
+- Login request is not submitted.
 
 ---
 
@@ -164,21 +166,21 @@ High
 
 **Objective**
 
-Verify validation when password is empty.
+Verify validation when the Password field is empty.
 
 ### Test Steps
 
 | Step | Action |
 |------|--------|
-|1|Open Login page|
-|2|Enter username|
-|3|Leave Password empty|
-|4|Click Login|
+| 1 | Open the Login page. |
+| 2 | Enter a valid username. |
+| 3 | Leave the Password field empty. |
+| 4 | Click **Login**. |
 
 ### Expected Result
 
-- Validation message appears.
-- Login is not processed.
+- **"Required"** validation message is displayed below the Password field.
+- Login request is not submitted.
 
 ---
 
@@ -190,21 +192,21 @@ High
 
 **Objective**
 
-Verify validation when both fields are empty.
+Verify validation when both Username and Password fields are empty.
 
 ### Test Steps
 
 | Step | Action |
 |------|--------|
-|1|Open Login page|
-|2|Leave Username empty|
-|3|Leave Password empty|
-|4|Click Login|
+| 1 | Open the Login page. |
+| 2 | Leave the Username field empty. |
+| 3 | Leave the Password field empty. |
+| 4 | Click **Login**. |
 
 ### Expected Result
 
-- Required field validation appears.
-- Login is not processed.
+- **"Required"** validation message is displayed for both Username and Password fields.
+- Login request is not submitted.
 
 ---
 
@@ -222,13 +224,13 @@ Verify that password characters are hidden while typing.
 
 | Step | Action |
 |------|--------|
-|1|Open Login page|
-|2|Enter password|
+| 1 | Open the Login page. |
+| 2 | Enter any password. |
 
 ### Expected Result
 
 - Password characters are masked.
-- Actual password is not visible.
+- The entered password is not visible.
 
 ---
 
@@ -240,18 +242,18 @@ Medium
 
 **Objective**
 
-Verify that the Forgot Password link redirects users correctly.
+Verify that the **Forgot your password?** link redirects users correctly.
 
 ### Test Steps
 
 | Step | Action |
 |------|--------|
-|1|Open Login page|
-|2|Click **Forgot your password?**|
+| 1 | Open the Login page. |
+| 2 | Click **Forgot your password?**. |
 
 ### Expected Result
 
-- Reset Password page is displayed.
+- User is redirected to the Reset Password page.
 
 ---
 
@@ -263,24 +265,25 @@ Medium
 
 **Objective**
 
-Verify that pressing Enter submits the login form.
+Verify that pressing the **Enter** key submits the login form.
 
 ### Test Steps
 
 | Step | Action |
 |------|--------|
-|1|Enter valid username|
-|2|Enter valid password|
-|3|Press Enter|
+| 1 | Enter a valid username. |
+| 2 | Enter a valid password. |
+| 3 | Press the **Enter** key. |
 
 ### Expected Result
 
-- Login is successful.
+- Login request is submitted.
+- User is successfully logged in.
 - Dashboard page is displayed.
 
 ---
 
-## TC_LOGIN_010 - Username with Leading or Trailing Spaces
+## TC_LOGIN_010 - Username with Leading and Trailing Spaces
 
 **Priority**
 
@@ -288,20 +291,51 @@ Low
 
 **Objective**
 
-Verify how the application handles whitespace in username input.
+Verify how the application handles leading and trailing whitespace in the Username field.
 
 ### Test Steps
 
 | Step | Action |
 |------|--------|
-|1|Enter username with leading/trailing spaces|
-|2|Enter valid password|
-|3|Click Login|
+| 1 | Enter a valid username with leading and trailing spaces. |
+| 2 | Enter a valid password. |
+| 3 | Click **Login**. |
 
 ### Expected Result
 
-- System trims unnecessary spaces **or**
-- Displays appropriate validation message.
+- Leading and trailing whitespace is automatically trimmed.
+- User is successfully authenticated.
+- Dashboard page is displayed.
+
+---
+
+## TC_LOGIN_011 - Verify Validation Message State After Previous Failed Authentication
+
+**Priority**
+
+Medium
+
+**Objective**
+
+Verify that the previous authentication error message is cleared when required field validation is triggered after a failed login attempt.
+
+### Test Steps
+
+| Step | Action |
+|------|--------|
+| 1 | Open the Login page. |
+| 2 | Enter a valid username (**Admin**). |
+| 3 | Enter an invalid password (**wrongpassword**). |
+| 4 | Click **Login**. |
+| 5 | Verify that the **"Invalid credentials"** message is displayed. |
+| 6 | Clear the Password field, leaving it empty. |
+| 7 | Click **Login** again. |
+
+### Expected Result
+
+- Only the **"Required"** validation message is displayed.
+- The previous **"Invalid credentials"** message is cleared.
+- Login request is not submitted because required field validation is triggered.
 
 ---
 
@@ -312,15 +346,17 @@ Verify how the application handles whitespace in username input.
 | Valid Login | ✅ |
 | Invalid Username | ✅ |
 | Invalid Password | ✅ |
-| Empty Validation | ✅ |
+| Empty Field Validation | ✅ |
 | Password Masking | ✅ |
 | Forgot Password | ✅ |
 | Keyboard Interaction | ✅ |
-| Input Validation | ✅ |
+| Username Whitespace Handling | ✅ |
+| Validation State Management | ✅ |
 
 ---
 
 # Notes
 
-- Test execution has **not** been performed yet.
-- Actual Result, Status, Evidence, and Bug Reports will be documented during the Test Execution phase.
+- Test cases define the expected behavior of the Login feature.
+- Test execution results, evidence, and bug reports are documented separately in the **Test Execution** and **Bug Reports** folders.
+- TC_LOGIN_011 was added during exploratory testing after identifying an unexpected validation state behavior.
