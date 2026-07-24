@@ -84,19 +84,37 @@ Upcoming tools:
 
 ---
 
-## Current Progress
+---
 
-| Phase | Status |
-|--------|--------|
-| Project Overview | ✅ Completed |
-| Application Analysis | ✅ Completed |
-| Test Plan | ✅ Completed |
-| Test Scenario | ✅ Completed |
-| Test Cases | ✅ Completed (Login Module) |
-| Test Execution | ✅ Completed (Login Module) |
-| Bug Report | ✅ Completed (Login Module) |
-| Evidence | ✅ Completed (Login Module) |
-| Qase.io Implementation | ⏳ Planned |
+# Current Project Status
+
+## Completed
+
+- Project Overview
+- Application Analysis
+- Login Test Plan
+- Login Test Scenario
+- Login Test Cases
+- Login Test Execution
+- Login Evidence
+- Login Bug Report
+
+## In Progress
+
+- OrangeHRM Manual Testing
+
+## Planned Modules
+
+- Admin
+- PIM
+- Leave
+- Time
+- Recruitment
+- Performance
+- Directory
+- Claim
+- Buzz
+
 
 # Author
 
