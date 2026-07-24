@@ -19,7 +19,7 @@ The purpose of this document is to verify that the Login functionality behaves a
 | Environment | Windows 11 • Google Chrome (Latest) |
 | Browser | Google Chrome (Latest) |
 | Execution Date | 24 July 2026 |
-| Execution Status | ✅ Completed |
+| Execution Status | Completed |
 
 ---
 
@@ -27,17 +27,17 @@ The purpose of this document is to verify that the Login functionality behaves a
 
 | Test Case ID | Test Case | Expected Result | Actual Result | Status | Evidence | Bug ID |
 |--------------|-----------|-----------------|---------------|--------|----------|--------|
-| TC_LOGIN_001 | Login with valid credentials | User successfully logs in and is redirected to Dashboard. | User successfully logged in and was redirected to Dashboard. | ✅ PASS | ..evidence/Login/TC_LOGIN_001_PASS.png | - |
-| TC_LOGIN_002 | Login with invalid password | Error message is displayed. | "Invalid credentials" message displayed correctly. | ✅ PASS | evidence/Login/TC_LOGIN_002_PASS.png | - |
-| TC_LOGIN_003 | Login with invalid username | Error message is displayed. | "Invalid credentials" message displayed correctly. | ✅ PASS | evidence/Login/TC_LOGIN_003_PASS.png | - |
-| TC_LOGIN_004 | Login with empty username | "Required" validation message is displayed. | "Required" validation message displayed correctly. | ✅ PASS | evidence/Login/TC_LOGIN_004_PASS.png | - |
-| TC_LOGIN_005 | Login with empty password | "Required" validation message is displayed. | "Required" validation message displayed correctly. | ✅ PASS | evidence/Login/TC_LOGIN_005_PASS.png | - |
-| TC_LOGIN_006 | Login with empty username and password | "Required" validation messages are displayed. | "Required" validation messages displayed correctly. | ✅ PASS | evidence/Login/TC_LOGIN_006_PASS.png | - |
-| TC_LOGIN_007 | Verify password masking | Password characters are masked while typing. | Password input was masked correctly. | ✅ PASS | evidence/Login/TC_LOGIN_007_PASS.png | - |
-| TC_LOGIN_008 | Forgot Password navigation | User is redirected to Reset Password page. | Successfully redirected to Reset Password page. | ✅ PASS | evidence/Login/TC_LOGIN_008_PASS.png | - |
-| TC_LOGIN_009 | Login using Enter key | Login request is submitted successfully. | Login was successfully submitted using the Enter key. | ✅ PASS | evidence/Login/TC_LOGIN_009_PASS.png | - |
-| TC_LOGIN_010 | Username with leading/trailing spaces | Username is processed correctly. | Leading and trailing whitespace was automatically trimmed and login succeeded. | ✅ PASS | evidence/Login/TC_LOGIN_010_PASS.png | - |
-| TC_LOGIN_011 | Verify validation message state after previous failed authentication | Previous "Invalid credentials" message should be cleared, and only "Required" validation should be displayed. | Previous "Invalid credentials" message remained visible together with the "Required" validation message. | ❌ FAIL | evidence/Login/TC_LOGIN_011_FAIL.png | BUG_LOGIN_001 |
+| TC_LOGIN_001 | Login with valid credentials | User successfully logs in and is redirected to Dashboard. | User successfully logged in and was redirected to Dashboard. | ✅ PASS | `..evidence/Login/TC_LOGIN_001_PASS.png` | - |
+| TC_LOGIN_002 | Login with invalid password | Error message is displayed. | "Invalid credentials" message displayed correctly. | ✅ PASS | `..evidence/Login/TC_LOGIN_002_PASS.png` | - |
+| TC_LOGIN_003 | Login with invalid username | Error message is displayed. | "Invalid credentials" message displayed correctly. | ✅ PASS | `..evidence/Login/TC_LOGIN_003_PASS.png` | - |
+| TC_LOGIN_004 | Login with empty username | "Required" validation message is displayed. | "Required" validation message displayed correctly. | ✅ PASS | `..evidence/Login/TC_LOGIN_004_PASS.png` | - |
+| TC_LOGIN_005 | Login with empty password | "Required" validation message is displayed. | "Required" validation message displayed correctly. | ✅ PASS | `..evidence/Login/TC_LOGIN_005_PASS.png` | - |
+| TC_LOGIN_006 | Login with empty username and password | "Required" validation messages are displayed. | "Required" validation messages displayed correctly. | ✅ PASS | `..evidence/Login/TC_LOGIN_006_PASS.png` | - |
+| TC_LOGIN_007 | Verify password masking | Password characters are masked while typing. | Password input was masked correctly. | ✅ PASS | `..evidence/Login/TC_LOGIN_007_PASS.png` | - |
+| TC_LOGIN_008 | Forgot Password navigation | User is redirected to Reset Password page. | Successfully redirected to Reset Password page. | ✅ PASS | `..evidence/Login/TC_LOGIN_008_PASS.png` | - |
+| TC_LOGIN_009 | Login using Enter key | Login request is submitted successfully. | Login was successfully submitted using the Enter key. | ✅ PASS | `..evidence/Login/TC_LOGIN_009_PASS.png` | - |
+| TC_LOGIN_010 | Username with leading/trailing spaces | Username is processed correctly. | Leading and trailing whitespace was automatically trimmed and login succeeded. | ✅ PASS | `..evidence/Login/TC_LOGIN_010_PASS.png` | - |
+| TC_LOGIN_011 | Verify validation message state after previous failed authentication | Previous "Invalid credentials" message should be cleared, and only "Required" validation should be displayed. | Previous "Invalid credentials" message remained visible together with the "Required" validation message. | ❌ FAIL | `..evidence/Login/TC_LOGIN_011_FAIL.png` | BUG_LOGIN_001 |
 
 ---
 
@@ -68,7 +68,7 @@ The purpose of this document is to verify that the Login functionality behaves a
 - All planned login test cases (TC_LOGIN_001 – TC_LOGIN_010) passed successfully.
 - During additional validation state testing, one UI validation issue was identified.
 - The issue occurs when a failed login attempt is followed by submitting the form with one or more required fields left empty.
-- The defect has been documented as **05-bug-reports/Login/BUG_LOGIN_001**.
+- The defect has been documented as `..05-bug-reports/Login/BUG_LOGIN_001`.
 
 ---
 
