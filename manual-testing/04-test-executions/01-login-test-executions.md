@@ -27,7 +27,7 @@ The purpose of this document is to verify that the Login functionality behaves a
 
 | Test Case ID | Test Case | Expected Result | Actual Result | Status | Evidence | Bug ID |
 |--------------|-----------|-----------------|---------------|--------|----------|--------|
-| TC_LOGIN_001 | Login with valid credentials | User successfully logs in and is redirected to Dashboard. | User successfully logged in and was redirected to Dashboard. | ✅ PASS | evidence/Login/TC_LOGIN_001_PASS.png | - |
+| TC_LOGIN_001 | Login with valid credentials | User successfully logs in and is redirected to Dashboard. | User successfully logged in and was redirected to Dashboard. | ✅ PASS | ..evidence/Login/TC_LOGIN_001_PASS.png | - |
 | TC_LOGIN_002 | Login with invalid password | Error message is displayed. | "Invalid credentials" message displayed correctly. | ✅ PASS | evidence/Login/TC_LOGIN_002_PASS.png | - |
 | TC_LOGIN_003 | Login with invalid username | Error message is displayed. | "Invalid credentials" message displayed correctly. | ✅ PASS | evidence/Login/TC_LOGIN_003_PASS.png | - |
 | TC_LOGIN_004 | Login with empty username | "Required" validation message is displayed. | "Required" validation message displayed correctly. | ✅ PASS | evidence/Login/TC_LOGIN_004_PASS.png | - |
