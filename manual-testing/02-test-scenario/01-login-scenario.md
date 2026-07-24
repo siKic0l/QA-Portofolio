@@ -66,5 +66,4 @@ The purpose of this document is to define high-level test scenarios for the Logi
 
 # Notes
 
-- These are high-level scenarios only.
 - Detailed test steps, test data, expected results, and execution status will be documented in the Test Cases document.
