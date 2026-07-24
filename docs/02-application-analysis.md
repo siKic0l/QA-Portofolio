@@ -339,3 +339,47 @@ The following testing areas have been identified for future testing activities:
 - Input Validation
 - Session Management
 - User Interface Consistency
+
+---
+
+## Testing Findings
+
+The Login module was selected as the first feature for manual testing because it represents a critical entry point to the system.
+
+During manual testing:
+
+- 11 test cases were executed.
+- 10 test cases passed successfully.
+- 1 UI validation defect was identified during exploratory testing.
+
+The identified defect is related to validation message persistence after a failed authentication attempt. Detailed information is documented in:
+
+- Test Execution
+- BUG_LOGIN_001
+
+---
+
+## Known Issues
+
+During exploratory testing, one UI validation issue was identified in the Login module.
+
+Issue Summary:
+
+Previous authentication error message ("Invalid credentials") remains visible after required field validation is triggered.
+
+Severity: Low
+
+Status: Open
+
+---
+
+## Current Testing Scope
+
+| Module | Status |
+|---------|--------|
+| Login | ✅ Completed |
+| Admin | ⏳ Planned |
+| PIM | ⏳ Planned |
+| Leave | ⏳ Planned |
+| Time | ⏳ Planned |
+| Recruitment | ⏳ Planned |
