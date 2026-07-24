@@ -1,10 +1,10 @@
 # QA Portfolio
 
-Welcome to my Quality Assurance Portfolio.
+Welcome to my **Quality Assurance Portfolio**.
 
-This repository documents my journey in learning and practicing **Software Quality Assurance** through real-world manual testing projects.
+This repository documents my journey of learning and practicing **Software Quality Assurance** through real-world manual testing projects.
 
-Instead of only studying QA theory, I apply the complete Software Testing Life Cycle (STLC) on real applications by creating professional testing documentation, executing test cases, collecting evidence, and reporting defects.
+Rather than only studying QA concepts, I apply the complete **Software Testing Life Cycle (STLC)** by analyzing applications, creating test documentation, executing manual tests, collecting evidence, and reporting defects using industry-standard practices.
 
 ---
 
@@ -12,15 +12,15 @@ Instead of only studying QA theory, I apply the complete Software Testing Life C
 
 Hi, I'm **Nurrohmi Zaki**.
 
-I'm a Software Engineer transitioning into the Quality Assurance field.
+I'm a **Software Engineer** transitioning into the **Quality Assurance** field.
 
-This portfolio demonstrates my practical QA skills by documenting complete manual testing projects using industry-standard documentation and workflows.
+This portfolio showcases my practical QA skills through complete manual testing projects, following professional documentation and testing workflows commonly used in software development teams.
 
 ---
 
 # Portfolio Goals
 
-This repository is built to demonstrate my ability to:
+This repository demonstrates my ability to:
 
 - Analyze application requirements
 - Create Test Plans
@@ -29,7 +29,7 @@ This repository is built to demonstrate my ability to:
 - Execute Manual Testing
 - Perform Exploratory Testing
 - Report Software Defects
-- Maintain Testing Documentation
+- Maintain professional QA documentation
 
 ---
 
@@ -40,7 +40,7 @@ This repository is built to demonstrate my ability to:
 - Functional Testing
 - Black Box Testing
 - Exploratory Testing
-- Regression Testing (planned)
+- Regression Testing *(planned)*
 
 ## Test Documentation
 
@@ -53,7 +53,7 @@ This repository is built to demonstrate my ability to:
 - Bug Reporting
 - Evidence Documentation
 
-## QA Concepts
+## QA Knowledge
 
 - Software Testing Life Cycle (STLC)
 - Entry & Exit Criteria
@@ -67,45 +67,50 @@ This repository is built to demonstrate my ability to:
 
 # Repository Structure
 
-├── docs/
-│ ├── project-overview.md
-│ └── application-analysis.md
+```text
+QA-Portfolio
 │
-├── manual-testing/
-│ ├── 01-test-plan/
-│ ├── 02-test-scenario/
-│ ├── 03-test-case/
-│ ├── 04-test-execution/
-│ ├── 05-bug-report/
-│ └── evidence/
-
-
----
-
-# 📋 Current Project
-
-Application:
-
-**OrangeHRM Demo**
-
-Current Tested Module:
-
-✅ Login
-
-Upcoming Modules:
-
-- Admin
-- PIM
-- Leave
-- Time
-- Recruitment
+├── docs
+│   ├── project-overview.md
+│   └── application-analysis.md
+│
+├── manual-testing
+│   ├── 01-test-plan
+│   ├── 02-test-scenario
+│   ├── 03-test-case
+│   ├── 04-test-execution
+│   ├── 05-bug-report
+│   └── evidence
+│
+└── README.md
+```
 
 ---
 
-# 📈 Project Progress
+# Current Project
+
+**Application**
+
+OrangeHRM Demo
+
+**Completed Module**
+
+- Login
+
+**Planned Modules**
+
+- ⏳ Admin
+- ⏳ PIM
+- ⏳ Leave
+- ⏳ Time
+- ⏳ Recruitment
+
+---
+
+# Project Progress
 
 | Phase | Status |
-|--------|--------|
+|------|:------:|
 | Project Overview | ✅ |
 | Application Analysis | ✅ |
 | Test Plan | ✅ |
@@ -114,46 +119,41 @@ Upcoming Modules:
 | Test Execution | ✅ |
 | Evidence | ✅ |
 | Bug Report | ✅ |
-| Qase.io Implementation | ⏳ Planned |
+| Qase.io Documentation | ⏳ Planned |
 | Automation Testing | ⏳ Planned |
 
 ---
 
-# 🔄 Testing Workflow
+# Testing Workflow
 
+```text
 Requirement Analysis
-
-↓
-
+        │
+        ▼
 Test Planning
-
-↓
-
-Test Scenario
-
-↓
-
-Test Cases
-
-↓
-
+        │
+        ▼
+Test Scenario Design
+        │
+        ▼
+Test Case Design
+        │
+        ▼
 Test Execution
-
-↓
-
+        │
+        ▼
 Evidence Collection
-
-↓
-
+        │
+        ▼
 Bug Reporting
-
+```
 
 ---
 
-# 📚 Documents
+# Documentation
 
 | Document | Status |
-|----------|--------|
+|----------|:------:|
 | Project Overview | ✅ |
 | Application Analysis | ✅ |
 | Login Test Plan | ✅ |
@@ -164,21 +164,21 @@ Bug Reporting
 
 ---
 
-# 🚀 Future Roadmap
+# Future Roadmap
 
-- Complete Manual Testing for OrangeHRM
-- Organize Test Cases using Qase.io
+- Complete manual testing for all OrangeHRM modules
+- Recreate the testing project using **Qase.io**
 - Learn API Testing
 - Learn Mobile Testing
 - Learn Automation Testing
-- Build Automation Portfolio
+- Build an Automation Testing Portfolio
 
 ---
 
-# 📫 Contact
+# Contact
 
-LinkedIn:
-(https://www.linkedin.com/in/nurrohmi-zaki-78b447294/)
+**LinkedIn**  
+🔗 https://www.linkedin.com/in/nurrohmi-zaki-78b447294/
 
-GitHub:
-https://github.com/siKic0l
+**GitHub**  
+🔗 https://github.com/siKic0l
