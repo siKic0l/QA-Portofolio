@@ -80,9 +80,23 @@ Upcoming tools:
 |---------|--------|
 | QA Introduction | ✅ Completed |
 | QA Test Technique | ✅ Completed |
-| QA Test Activity | 🔄 In Progress |
+| QA Test Activity | ✅ Completed |
 
 ---
+
+## Current Progress
+
+| Phase | Status |
+|--------|--------|
+| Project Overview | ✅ Completed |
+| Application Analysis | ✅ Completed |
+| Test Plan | ✅ Completed |
+| Test Scenario | ✅ Completed |
+| Test Cases | ✅ Completed (Login Module) |
+| Test Execution | ✅ Completed (Login Module) |
+| Bug Report | ✅ Completed (Login Module) |
+| Evidence | ✅ Completed (Login Module) |
+| Qase.io Implementation | ⏳ Planned |
 
 # Author
 
