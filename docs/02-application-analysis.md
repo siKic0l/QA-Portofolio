@@ -342,19 +342,26 @@ The following testing areas have been identified for future testing activities:
 
 ---
 
-## Testing Findings
+# Testing Findings
 
-The Login module was selected as the first feature for manual testing because it represents a critical entry point to the system.
+The Login module was selected as the first module for manual testing because it represents the primary entry point of the application.
 
-During manual testing:
+Manual testing activities produced the following results:
 
-- 11 test cases were executed.
-- 10 test cases passed successfully.
-- 1 UI validation defect was identified during exploratory testing.
+| Metric | Result |
+|--------|--------|
+| Test Cases | 11 |
+| Passed | 10 |
+| Failed | 1 |
+| Bugs Found | 1 |
 
-The identified defect is related to validation message persistence after a failed authentication attempt. Detailed information is documented in:
+One UI validation issue was identified during exploratory testing.
 
-- Test Execution
+The defect occurs when an authentication error message remains visible after client-side required field validation is triggered.
+
+This issue has been documented in:
+
+- Login Test Execution
 - BUG_LOGIN_001
 
 ---
