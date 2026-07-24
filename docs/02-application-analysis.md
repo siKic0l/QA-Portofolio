@@ -4,26 +4,26 @@
 
 | Item | Description |
 |------|-------------|
-| Application | OrangeHRM Open Source Demo |
-| Application Type | Human Resource Management System (HRMS) |
-| Platform | Web Application |
-| Primary User Role | Administrator |
+| **Application** | OrangeHRM Open Source Demo |
+| **Application Type** | Human Resource Management System (HRMS) |
+| **Platform** | Web Application |
+| **Primary User Role** | Administrator |
 
 ---
 
 # Application Overview
 
-OrangeHRM is a Human Resource Management System (HRMS) designed to help organizations manage employee information and internal HR processes through a centralized web-based platform.
+OrangeHRM is a web-based Human Resource Management System (HRMS) designed to help organizations manage employee information and internal HR processes through a centralized platform.
 
-The application provides various modules for employee management, attendance, leave management, recruitment, performance evaluation, claims, and internal communication.
+The application provides multiple business modules covering employee management, attendance, leave management, recruitment, performance evaluation, reimbursement claims, and internal communication.
 
 ---
 
 # User Role
 
-This portfolio uses the **Administrator** account provided by the OrangeHRM Demo.
+This portfolio uses the **Administrator** account provided by the OrangeHRM Demo environment.
 
-The Administrator has access to most system modules and management features, making it suitable for end-to-end functional testing.
+The Administrator account provides access to nearly all system modules and administrative features, making it suitable for comprehensive end-to-end functional testing across multiple business workflows.
 
 ---
 
@@ -39,8 +39,8 @@ Authenticate users before accessing the system.
 
 - Login
 - Forgot Password
-- Logout
 - Change Password
+- Logout
 
 ---
 
@@ -48,7 +48,7 @@ Authenticate users before accessing the system.
 
 ### Purpose
 
-Provide an overview of important HR information and system activities.
+Provide an overview of key HR information and system activities.
 
 ### Available Features
 
@@ -113,7 +113,7 @@ Manage system configurations and administrative data.
 - Email Configuration
 - Email Subscription
 - Localization
-- Language Package
+- Language Packages
 - Modules
 - OAuth Client
 - LDAP Configuration
@@ -159,7 +159,7 @@ Manage employee leave requests and leave records.
 
 ### Purpose
 
-Manage attendance, working hours, and project timesheets.
+Manage employee attendance, working hours, and project timesheets.
 
 ### Available Features
 
@@ -280,55 +280,56 @@ Provide an internal social collaboration platform.
 
 ---
 
-# Initial Business Flow
+# Business Flow Overview
+
+The following diagram illustrates the general workflow performed by an administrator when interacting with the system.
 
 ```text
 User Login
-      ↓
+      │
+      ▼
+Authentication
+      │
+      ▼
 Dashboard
-      ↓
-Access Module
-      ↓
+      │
+      ▼
+Select Module
+      │
+      ▼
 Perform Business Process
-      ↓
-Save Changes
-      ↓
-View Updated Information
-      ↓
+      │
+      ▼
+Submit Changes
+      │
+      ▼
+System Validation
+      │
+      ▼
+Data Updated
+      │
+      ▼
 Logout
 ```
 
 ---
 
-# Modules Selected for Testing
-
-The initial testing scope for this portfolio will focus on the following modules:
-
-- Authentication
-- Dashboard
-- PIM (Employee Management)
-
-These modules were selected because they represent the application's core business functionality and provide sufficient coverage for demonstrating manual testing techniques.
-
-Additional modules will be included as the portfolio progresses.
-
----
-
 # Initial Observations
 
-During the initial exploration, several observations were identified:
+The following observations were identified during the initial exploration of the application.
 
-- Most management modules implement standard CRUD functionality.
-- Search functionality is available across multiple modules.
-- Administrator has access to nearly all application features.
-- Configuration settings are grouped under dedicated administration modules.
+- Most management modules implement standard CRUD (Create, Read, Update, Delete) operations.
+- Search functionality is consistently available across multiple modules.
+- The Administrator role has access to nearly all system features.
+- Configuration settings are centralized within dedicated administration modules.
 - The application follows a consistent navigation structure, making feature discovery straightforward.
+- Similar page layouts and interaction patterns are reused across different modules, improving usability and reducing the learning curve.
 
 ---
 
-# Potential Test Areas
+# Potential Testing Areas
 
-The following testing areas have been identified for future testing activities:
+Based on the application exploration, the following areas have been identified for future testing activities.
 
 - Authentication
 - Form Validation
@@ -342,51 +343,20 @@ The following testing areas have been identified for future testing activities:
 
 ---
 
-# Testing Findings
+# Testing Scope
 
-The Login module was selected as the first module for manual testing because it represents the primary entry point of the application.
-
-Manual testing activities produced the following results:
-
-| Metric | Result |
-|--------|--------|
-| Test Cases | 11 |
-| Passed | 10 |
-| Failed | 1 |
-| Bugs Found | 1 |
-
-One UI validation issue was identified during exploratory testing.
-
-The defect occurs when an authentication error message remains visible after client-side required field validation is triggered.
-
-This issue has been documented in:
-
-- Login Test Execution
-- BUG_LOGIN_001
-
----
-
-## Known Issues
-
-During exploratory testing, one UI validation issue was identified in the Login module.
-
-Issue Summary:
-
-Previous authentication error message ("Invalid credentials") remains visible after required field validation is triggered.
-
-Severity: Low
-
-Status: Open
-
----
-
-## Current Testing Scope
+The following modules are planned as part of this manual testing portfolio.
 
 | Module | Status |
-|---------|--------|
+|---------|:------:|
 | Login | ✅ Completed |
+| Dashboard | ⏳ Planned |
 | Admin | ⏳ Planned |
 | PIM | ⏳ Planned |
 | Leave | ⏳ Planned |
 | Time | ⏳ Planned |
 | Recruitment | ⏳ Planned |
+| Performance | ⏳ Planned |
+| Directory | ⏳ Planned |
+| Claim | ⏳ Planned |
+| Buzz | ⏳ Planned |
