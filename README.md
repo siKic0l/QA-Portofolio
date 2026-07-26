@@ -2,9 +2,9 @@
 
 Welcome to my **Quality Assurance Portfolio**.
 
-This repository documents my journey of learning and practicing **Software Quality Assurance** through real-world manual testing projects.
+This repository showcases my hands-on experience in **Software Quality Assurance (QA)** through real-world manual testing projects.
 
-Rather than only studying QA concepts, I apply the complete **Software Testing Life Cycle (STLC)** by analyzing applications, creating test documentation, executing manual tests, collecting evidence, and reporting defects using industry-standard practices.
+Instead of only learning QA concepts, I practice the complete **Software Testing Life Cycle (STLC)** by analyzing applications, designing test documentation, executing manual tests, collecting evidence, and reporting software defects.
 
 ---
 
@@ -12,9 +12,9 @@ Rather than only studying QA concepts, I apply the complete **Software Testing L
 
 Hi, I'm **Nurrohmi Zaki**.
 
-I'm a **Software Engineer** transitioning into the **Quality Assurance** field.
+I'm a **Software Engineer transitioning into the Quality Assurance field** with a passion for software quality, structured testing, and continuous improvement.
 
-This portfolio showcases my practical QA skills through complete manual testing projects, following professional documentation and testing workflows commonly used in software development teams.
+This portfolio demonstrates my practical QA skills through complete manual testing projects using industry-standard documentation and workflows.
 
 ---
 
@@ -25,11 +25,12 @@ This repository demonstrates my ability to:
 - Analyze application requirements
 - Create Test Plans
 - Design Test Scenarios
-- Write Test Cases
-- Execute Manual Testing
+- Write Manual Test Cases
+- Execute Functional Testing
 - Perform Exploratory Testing
 - Report Software Defects
-- Maintain professional QA documentation
+- Document Testing Evidence
+- Apply the Software Testing Life Cycle (STLC)
 
 ---
 
@@ -40,86 +41,105 @@ This repository demonstrates my ability to:
 - Functional Testing
 - Black Box Testing
 - Exploratory Testing
-- Regression Testing *(planned)*
+- Regression Testing (Planned)
 
 ## Test Documentation
 
 - Project Overview
 - Application Analysis
-- Test Planning
-- Test Scenario Design
-- Test Case Design
+- Test Plan
+- Test Scenario
+- Test Cases
 - Test Execution
-- Bug Reporting
+- Bug Report
 - Evidence Documentation
 
-## QA Knowledge
+## QA Concepts
 
 - Software Testing Life Cycle (STLC)
+- Test Planning
 - Entry & Exit Criteria
 - Test Prioritization
-- Test Estimation
 - Risk Assessment
 - Defect Lifecycle
-- Bug Severity & Priority
+- Severity & Priority Classification
 
 ---
 
 # Repository Structure
 
 ```text
-QA-Portfolio
-│
-├── docs
-│   ├── project-overview.md
-│   └── application-analysis.md
-│
-├── manual-testing
-│   ├── 01-test-plan
-│   ├── 02-test-scenario
-│   ├── 03-test-case
-│   ├── 04-test-execution
-│   ├── 05-bug-report
-│   └── evidence
-│
-└── README.md
+docs/
+├── project-overview.md
+└── application-analysis.md
+
+manual-testing/
+├── 01-test-plans/
+├── 02-test-scenarios/
+├── 03-test-cases/
+├── 04-test-executions/
+├── 05-bug-reports/
+└── evidence/
 ```
 
 ---
 
 # Current Project
 
-**Application**
+## Application
 
-OrangeHRM Demo
+**OrangeHRM Demo**
 
-**Completed Module**
+## Current Progress
+
+### Authentication
 
 - Login
 
-**Planned Modules**
+### Admin
 
-- ⏳ Admin
-- ⏳ PIM
-- ⏳ Leave
-- ⏳ Time
-- ⏳ Recruitment
+- User Management
+- Job Titles
+- Organization → Locations
+
+### Planned
+
+- PIM
+- Leave
+- Time
+- Recruitment
+
+---
+
+# Project Statistics
+
+| Metric | Value |
+|---------|------:|
+| Applications | 1 |
+| Modules Documented | 4 |
+| Test Scenarios | 90+ |
+| Test Cases | 120+ |
+| Executed Test Cases | 11 |
+| Bugs Reported | 1 |
+
+> Statistics will continue to grow as the portfolio expands.
 
 ---
 
 # Project Progress
 
 | Phase | Status |
-|------|:------:|
+|--------|--------|
 | Project Overview | ✅ |
 | Application Analysis | ✅ |
 | Test Plan | ✅ |
 | Test Scenario | ✅ |
 | Test Cases | ✅ |
-| Test Execution | ✅ |
-| Evidence | ✅ |
-| Bug Report | ✅ |
-| Qase.io Documentation | ⏳ Planned |
+| Test Execution | 🟡 In Progress |
+| Evidence Collection | 🟡 In Progress |
+| Bug Reporting | 🟡 In Progress |
+| Qase.io Implementation | ⏳ Planned |
+| API Testing | ⏳ Planned |
 | Automation Testing | ⏳ Planned |
 
 ---
@@ -128,23 +148,19 @@ OrangeHRM Demo
 
 ```text
 Requirement Analysis
-        │
-        ▼
+        ↓
+Application Analysis
+        ↓
 Test Planning
-        │
-        ▼
+        ↓
 Test Scenario Design
-        │
-        ▼
+        ↓
 Test Case Design
-        │
-        ▼
+        ↓
 Test Execution
-        │
-        ▼
+        ↓
 Evidence Collection
-        │
-        ▼
+        ↓
 Bug Reporting
 ```
 
@@ -152,33 +168,74 @@ Bug Reporting
 
 # Documentation
 
-| Document | Status |
-|----------|:------:|
-| Project Overview | ✅ |
-| Application Analysis | ✅ |
-| Login Test Plan | ✅ |
-| Login Test Scenario | ✅ |
-| Login Test Cases | ✅ |
-| Login Test Execution | ✅ |
-| Login Bug Report | ✅ |
+## Project Documentation
+
+- ✅ Project Overview
+- ✅ Application Analysis
+
+## Authentication
+
+- ✅ Login Test Plan
+- ✅ Login Test Scenario
+- ✅ Login Test Cases
+- ✅ Login Test Execution
+- ✅ Login Bug Report
+
+## Admin
+
+### User Management
+
+- ✅ Test Plan
+- ✅ Test Scenario
+- ✅ Test Cases
+- ⏳ Test Execution
+
+### Job Titles
+
+- ✅ Test Plan
+- ✅ Test Scenario
+- ✅ Test Cases
+- ⏳ Test Execution
+
+### Organization → Locations
+
+- ✅ Test Plan
+- ✅ Test Scenario
+- ✅ Test Cases
+- ⏳ Test Execution
 
 ---
 
 # Future Roadmap
 
-- Complete manual testing for all OrangeHRM modules
-- Recreate the testing project using **Qase.io**
-- Learn API Testing
-- Learn Mobile Testing
-- Learn Automation Testing
-- Build an Automation Testing Portfolio
+## Manual Testing
+
+- Complete Admin Module
+- Complete PIM Module
+- Complete Leave Module
+- Complete Time Module
+- Complete Recruitment Module
+
+## QA Tools
+
+- Organize Test Cases using Qase.io
+- Learn API Testing with Postman
+- Learn SQL for Database Validation
+
+## Automation
+
+- Learn Playwright
+- Learn Selenium
+- Build Automation Testing Portfolio
 
 ---
 
 # Contact
 
-**LinkedIn**  
-🔗 https://www.linkedin.com/in/nurrohmi-zaki-78b447294/
+**LinkedIn**
 
-**GitHub**  
-🔗 https://github.com/siKic0l
+https://www.linkedin.com/in/nurrohmi-zaki-78b447294/
+
+**GitHub**
+
+https://github.com/siKic0l
