@@ -53,7 +53,7 @@ Before executing the test cases, ensure that:
 
 ---
 
-## TC_ADMIN_001 - Verify User Management Page Loads Successfully
+## TC_ADMIN_USER_001 - Verify User Management Page Loads Successfully
 
 **Priority**
 
@@ -78,7 +78,7 @@ Verify that the User Management page loads successfully.
 
 ---
 
-## TC_ADMIN_002 - Verify User Table is Displayed Correctly
+## TC_ADMIN_USER_002 - Verify User Table is Displayed Correctly
 
 **Priority**
 
@@ -107,7 +107,7 @@ The table displays:
 
 ---
 
-## TC_ADMIN_003 - Verify Add Button is Displayed
+## TC_ADMIN_USER_003 - Verify Add Button is Displayed
 
 **Priority**
 
@@ -132,7 +132,7 @@ Verify that administrators can access the Add User page.
 
 ---
 
-## TC_ADMIN_004 - Verify Edit Button is Available
+## TC_ADMIN_USER_004 - Verify Edit Button is Available
 
 **Priority**
 
@@ -156,7 +156,7 @@ Verify that each user record provides an Edit action.
 
 ---
 
-## TC_ADMIN_005 - Verify Delete Button is Available
+## TC_ADMIN_USER_005 - Verify Delete Button is Available
 
 **Priority**
 
@@ -180,7 +180,7 @@ Verify that each user record provides a Delete action.
 
 ---
 
-## TC_ADMIN_006 - Search User by Valid Username
+## TC_ADMIN_USER_006 - Search User by Valid Username
 
 **Priority**
 
@@ -204,7 +204,7 @@ Verify that users can be searched using a valid username.
 
 ---
 
-## TC_ADMIN_007 - Search User by Invalid Username
+## TC_ADMIN_USER_007 - Search User by Invalid Username
 
 **Priority**
 
@@ -228,7 +228,7 @@ Verify system behavior when searching for a username that does not exist.
 
 ---
 
-## TC_ADMIN_008 - Search User by User Role
+## TC_ADMIN_USER_008 - Search User by User Role
 
 **Priority**
 
@@ -251,7 +251,7 @@ Verify users can be filtered by User Role.
 
 ---
 
-## TC_ADMIN_009 - Search User by Employee Name
+## TC_ADMIN_USER_009 - Search User by Employee Name
 
 **Priority**
 
@@ -276,7 +276,7 @@ Verify users can be searched using Employee Name.
 
 ---
 
-## TC_ADMIN_010 - Search User by Status
+## TC_ADMIN_USER_010 - Search User by Status
 
 **Priority**
 
@@ -299,7 +299,7 @@ Verify users can be filtered by account status.
 
 ---
 
-## TC_ADMIN_011 - Search User Using Multiple Filters
+## TC_ADMIN_USER_011 - Search User Using Multiple Filters
 
 **Priority**
 
@@ -325,7 +325,7 @@ Verify that the system returns users matching multiple search criteria simultane
 
 ---
 
-## TC_ADMIN_012 - Verify Reset Button Clears Search Filters
+## TC_ADMIN_USER_012 - Verify Reset Button Clears Search Filters
 
 **Priority**
 
@@ -350,7 +350,7 @@ Verify that the Reset button clears all search criteria.
 
 ---
 
-## TC_ADMIN_013 - Search with Empty Filters
+## TC_ADMIN_USER_013 - Search with Empty Filters
 
 **Priority**
 
@@ -374,7 +374,7 @@ Verify that clicking Search without any filter displays all users.
 
 ---
 
-## TC_ADMIN_014 - Add User with Valid Information
+## TC_ADMIN_USER_014 - Add User with Valid Information
 
 **Priority**
 
@@ -405,7 +405,7 @@ Verify that a new user can be successfully created using valid information.
 
 ---
 
-## TC_ADMIN_015 - Add User with Empty Required Fields
+## TC_ADMIN_USER_015 - Add User with Empty Required Fields
 
 **Priority**
 
@@ -430,7 +430,7 @@ Verify that required field validation is displayed when mandatory fields are lef
 
 ---
 
-## TC_ADMIN_016 - Verify Employee Name Autocomplete
+## TC_ADMIN_USER_016 - Verify Employee Name Autocomplete
 
 **Priority**
 
@@ -456,7 +456,7 @@ Verify that Employee Name only accepts existing employees from autocomplete sugg
 
 ---
 
-## TC_ADMIN_017 - Verify Invalid Employee Name Cannot Be Selected
+## TC_ADMIN_USER_017 - Verify Invalid Employee Name Cannot Be Selected
 
 **Priority**
 
@@ -482,7 +482,7 @@ Verify that arbitrary Employee Name values cannot be submitted.
 
 ---
 
-## TC_ADMIN_018 - Verify Username Minimum Length Validation
+## TC_ADMIN_USER_018 - Verify Username Minimum Length Validation
 
 **Priority**
 
@@ -508,7 +508,7 @@ Verify that Username must contain at least five characters.
 
 ---
 
-## TC_ADMIN_019 - Verify Password and Confirm Password Validation
+## TC_ADMIN_USER_019 - Verify Password and Confirm Password Validation
 
 **Priority**
 
@@ -534,7 +534,7 @@ Verify that Password and Confirm Password must match.
 
 ---
 
-## TC_ADMIN_020 - Cancel User Creation
+## TC_ADMIN_USER_020 - Cancel User Creation
 
 **Priority**
 
@@ -560,7 +560,7 @@ Verify that clicking Cancel discards user creation.
 
 ---
 
-## TC_ADMIN_021 - Edit Username Successfully
+## TC_ADMIN_USER_021 - Edit Username Successfully
 
 **Priority**
 
@@ -587,7 +587,7 @@ Verify that an administrator can successfully update a user's username.
 
 ---
 
-## TC_ADMIN_022 - Edit User Role Successfully
+## TC_ADMIN_USER_022 - Edit User Role Successfully
 
 **Priority**
 
@@ -613,7 +613,7 @@ Verify that User Role can be updated successfully.
 
 ---
 
-## TC_ADMIN_023 - Edit Employee Name Successfully
+## TC_ADMIN_USER_023 - Edit Employee Name Successfully
 
 **Priority**
 
@@ -640,7 +640,7 @@ Verify that Employee Name can be updated using autocomplete.
 
 ---
 
-## TC_ADMIN_024 - Edit Status Successfully
+## TC_ADMIN_USER_024 - Edit Status Successfully
 
 **Priority**
 
@@ -666,7 +666,7 @@ Verify that user status can be updated.
 
 ---
 
-## TC_ADMIN_025 - Verify Change Password Checkbox
+## TC_ADMIN_USER_025 - Verify Change Password Checkbox
 
 **Priority**
 
@@ -691,7 +691,7 @@ Verify that enabling Change Password displays Password and Confirm Password fiel
 
 ---
 
-## TC_ADMIN_026 - Change Password Successfully
+## TC_ADMIN_USER_026 - Change Password Successfully
 
 **Priority**
 
@@ -718,7 +718,7 @@ Verify that a user's password can be updated successfully.
 
 ---
 
-## TC_ADMIN_027 - Verify Password Confirmation Validation During Edit
+## TC_ADMIN_USER_027 - Verify Password Confirmation Validation During Edit
 
 **Priority**
 
@@ -744,7 +744,7 @@ Verify that the system validates mismatched passwords during password update.
 
 ---
 
-## TC_ADMIN_028 - Verify Required Password Fields After Enabling Change Password
+## TC_ADMIN_USER_028 - Verify Required Password Fields After Enabling Change Password
 
 **Priority**
 
@@ -770,7 +770,7 @@ Verify that Password and Confirm Password become mandatory after enabling Change
 
 ---
 
-## TC_ADMIN_029 - Cancel User Update
+## TC_ADMIN_USER_029 - Cancel User Update
 
 **Priority**
 
@@ -796,7 +796,7 @@ Verify that clicking Cancel discards all modifications.
 
 ---
 
-## TC_ADMIN_030 - Verify Success Toast After Updating User
+## TC_ADMIN_USER_030 - Verify Success Toast After Updating User
 
 **Priority**
 
@@ -821,7 +821,7 @@ Verify that a success notification is displayed after updating user information.
 
 ---
 
-## TC_ADMIN_031 - Delete User Successfully
+## TC_ADMIN_USER_031 - Delete User Successfully
 
 **Priority**
 
@@ -847,7 +847,7 @@ Verify that an administrator can successfully delete an existing user.
 
 ---
 
-## TC_ADMIN_032 - Cancel User Deletion
+## TC_ADMIN_USER_032 - Cancel User Deletion
 
 **Priority**
 
@@ -872,7 +872,7 @@ Verify that cancelling the delete confirmation does not remove the selected user
 
 ---
 
-## TC_ADMIN_033 - Verify Delete Confirmation Dialog
+## TC_ADMIN_USER_033 - Verify Delete Confirmation Dialog
 
 **Priority**
 
@@ -895,7 +895,7 @@ Verify that a confirmation dialog is displayed before deleting a user.
 
 ---
 
-## TC_ADMIN_034 - Verify Username Column Sorting
+## TC_ADMIN_USER_034 - Verify Username Column Sorting
 
 **Priority**
 
@@ -920,7 +920,7 @@ Verify that the Username column can be sorted in ascending and descending order.
 
 ---
 
-## TC_ADMIN_035 - Verify User Role Column Sorting
+## TC_ADMIN_USER_035 - Verify User Role Column Sorting
 
 **Priority**
 
@@ -942,7 +942,7 @@ Verify that the User Role column supports sorting.
 
 ---
 
-## TC_ADMIN_036 - Verify Employee Name Column Sorting
+## TC_ADMIN_USER_036 - Verify Employee Name Column Sorting
 
 **Priority**
 
@@ -964,7 +964,7 @@ Verify that the Employee Name column supports sorting.
 
 ---
 
-## TC_ADMIN_037 - Verify Status Column Sorting
+## TC_ADMIN_USER_037 - Verify Status Column Sorting
 
 **Priority**
 
@@ -986,7 +986,7 @@ Verify that the Status column supports sorting.
 
 ---
 
-## TC_ADMIN_038 - Verify Username with Minimum Allowed Length
+## TC_ADMIN_USER_038 - Verify Username with Minimum Allowed Length
 
 **Priority**
 
@@ -1012,7 +1012,7 @@ Verify that the system accepts a username containing exactly five characters.
 
 ---
 
-## TC_ADMIN_039 - Verify Leading and Trailing Spaces in Username
+## TC_ADMIN_USER_039 - Verify Leading and Trailing Spaces in Username
 
 **Priority**
 
@@ -1038,7 +1038,7 @@ Verify how the system handles leading and trailing spaces in the Username field.
 
 ---
 
-## TC_ADMIN_040 - Verify Employee Name Only Accepts Existing Employees
+## TC_ADMIN_USER_040 - Verify Employee Name Only Accepts Existing Employees
 
 **Priority**
 
