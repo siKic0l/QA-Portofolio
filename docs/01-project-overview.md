@@ -4,9 +4,9 @@
 
 This repository contains a collection of manual testing projects created to demonstrate practical Software Quality Assurance (QA) skills using industry-standard testing documentation and workflows.
 
-Each project follows the **Software Testing Life Cycle (STLC)**, from understanding the application and defining the testing scope to designing test documentation, executing test cases, collecting evidence, and reporting software defects.
+Each project follows the **Software Testing Life Cycle (STLC)**, from understanding the application and defining the testing scope to designing test documentation, executing test cases, collecting testing evidence, and reporting software defects.
 
-The objective of this portfolio is to showcase a structured and professional approach to manual software testing rather than simply presenting testing artifacts.
+The objective of this portfolio is to demonstrate a structured and professional approach to manual software testing through real testing projects rather than simply presenting isolated testing artifacts.
 
 ---
 
@@ -18,8 +18,8 @@ The primary objectives of this portfolio are to:
 - Practice structured manual testing on real-world web applications
 - Produce professional QA documentation
 - Improve analytical and exploratory testing skills
-- Demonstrate defect reporting and documentation practices
-- Build a portfolio suitable for Junior QA and QA Internship opportunities
+- Demonstrate reproducible defect reporting practices
+- Build a professional QA portfolio for Junior QA and QA Internship opportunities
 
 ---
 
@@ -27,7 +27,7 @@ The primary objectives of this portfolio are to:
 
 The current portfolio focuses on **Manual Functional Testing** for web applications.
 
-Activities included in this repository are:
+Activities covered in this repository include:
 
 - Requirement Analysis
 - Application Analysis
@@ -39,22 +39,20 @@ Activities included in this repository are:
 - Evidence Collection
 - Bug Reporting
 
-The portfolio will continue to expand with additional modules and applications over time.
+The portfolio will continue to expand with additional modules, applications, and testing methodologies.
 
 ---
 
 # Testing Methodology
 
-The projects in this repository primarily use:
-
 ## Testing Types
 
-- Functional Testing
 - Manual Testing
+- Functional Testing
 - Black Box Testing
 - Exploratory Testing
 
-## Testing Approach
+## Testing Workflow
 
 The testing process follows the Software Testing Life Cycle (STLC):
 
@@ -84,14 +82,27 @@ Bug Reporting
 |------|-------------|
 | Application | OrangeHRM Demo |
 | Application Type | Web-based Human Resource Management System (HRMS) |
-| Current Status | In Progress |
-| Primary Testing Focus | Manual Functional Testing |
+| Current Phase | Manual Functional Testing |
+| Current Status | Phase 1 Completed |
+
+---
+
+# Completed Testing Scope
+
+The following modules have been fully documented with Test Scenarios, Test Cases, Test Execution, and supporting evidence.
+
+| Module | Status |
+|---------|--------|
+| Authentication - Login | Completed |
+| Admin - User Management | Completed |
+| Admin - Job Titles | Completed |
+| Admin - Organization - Locations | Completed |
 
 ---
 
 # Repository Deliverables
 
-Each testing project includes the following documentation:
+Each testing project includes professional QA documentation consisting of:
 
 - Project Overview
 - Application Analysis
@@ -113,8 +124,10 @@ Each testing project includes the following documentation:
 - Markdown
 - Visual Studio Code
 - Google Chrome
+- Chrome DevTools
+- Windows Snipping Tool
 
-## Planned
+## Planned Learning
 
 - Qase.io
 - Postman
@@ -127,29 +140,29 @@ Each testing project includes the following documentation:
 
 # Current Progress
 
-| Module | Status |
-|---------|--------|
-| Authentication - Login | ✅ Completed |
-| Admin - User Management | 🟡 Documentation Completed |
-| Admin - Job Titles | 🟡 Documentation Completed |
-| Admin - Organization - Locations | 🟡 Documentation Completed |
-| PIM | ⏳ Planned |
-| Leave | ⏳ Planned |
-| Time | ⏳ Planned |
-| Recruitment | ⏳ Planned |
+| Activity | Status |
+|----------|--------|
+| Project Overview | Completed |
+| Application Analysis | Completed |
+| Test Planning | Completed |
+| Test Scenario Design | Completed |
+| Test Case Design | Completed |
+| Test Execution | Completed |
+| Evidence Collection | Completed |
+| Bug Reporting | Completed |
 
 ---
 
 # Success Criteria
 
-This portfolio will be considered successful when it demonstrates:
+This portfolio aims to demonstrate:
 
 - Well-structured QA documentation
-- Consistent use of STLC practices
+- Consistent application of STLC practices
 - Comprehensive manual testing coverage
 - Clear and reproducible bug reports
 - Well-organized testing evidence
-- Continuous improvement through additional testing projects
+- Continuous improvement through additional QA projects
 
 ---
 
@@ -157,9 +170,9 @@ This portfolio will be considered successful when it demonstrates:
 
 ## Manual Testing
 
-- Complete OrangeHRM core modules
-- Expand test coverage
-- Increase exploratory testing documentation
+- Expand OrangeHRM testing coverage
+- Continue documenting additional OrangeHRM modules
+- Increase exploratory testing coverage
 
 ## Quality Assurance
 
