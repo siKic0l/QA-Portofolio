@@ -349,9 +349,8 @@ The following modules are planned as part of this manual testing portfolio.
 
 | Module | Status |
 |---------|:------:|
-| Login | ✅ Completed |
-| Dashboard | ⏳ Planned |
-| Admin | ⏳ Planned |
+| Login | Completed |
+| Admin | Completed |
 | PIM | ⏳ Planned |
 | Leave | ⏳ Planned |
 | Time | ⏳ Planned |
