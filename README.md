@@ -233,4 +233,4 @@ As new projects are completed, this repository will continue to expand with addi
 **Nurrohmi Zaki**
 
 - GitHub: https://github.com/siKic0l
-- LinkedIn: [*(Nurrohmi Zaki)*](https://www.linkedin.com/in/nurrohmi-zaki-78b447294/)
+- LinkedIn: [*Nurrohmi Zaki - LinkedIn*](https://www.linkedin.com/in/nurrohmi-zaki-78b447294/)
