@@ -1,241 +1,218 @@
 # QA Portfolio
 
-Welcome to my **Quality Assurance Portfolio**.
+A collection of my Quality Assurance projects showcasing **manual testing**, **test documentation**, **bug reporting**, and future **automation testing** practices.
 
-This repository showcases my hands-on experience in **Software Quality Assurance (QA)** through real-world manual testing projects.
-
-Instead of only learning QA concepts, I practice the complete **Software Testing Life Cycle (STLC)** by analyzing applications, designing test documentation, executing manual tests, collecting evidence, and reporting software defects.
+This repository demonstrates my end-to-end QA workflow, starting from requirement analysis to test execution and defect reporting using real-world web applications.
 
 ---
 
 # About Me
 
-Hi, I'm **Nurrohmi Zaki**.
+Hi, I'm **Nurrohmi Zaki**
 
-I'm a **Software Engineer transitioning into the Quality Assurance field** with a passion for software quality, structured testing, and continuous improvement.
+I'm a Software Engineer transitioning into Quality Assurance with a strong interest in Software Testing, Test Automation, and Quality Engineering.
 
-This portfolio demonstrates my practical QA skills through complete manual testing projects using industry-standard documentation and workflows.
+I enjoy analyzing software behavior, designing structured test cases, discovering defects, and improving software quality through systematic testing.
 
----
+Currently focusing on:
 
-# Portfolio Goals
-
-This repository demonstrates my ability to:
-
-- Analyze application requirements
-- Create Test Plans
-- Design Test Scenarios
-- Write Manual Test Cases
-- Execute Functional Testing
-- Perform Exploratory Testing
-- Report Software Defects
-- Document Testing Evidence
-- Apply the Software Testing Life Cycle (STLC)
-
----
-
-# Skills Demonstrated
-
-## Manual Testing
-
-- Functional Testing
-- Black Box Testing
+- Manual Testing
+- Test Documentation
+- Bug Reporting
 - Exploratory Testing
-- Regression Testing (Planned)
-
-## Test Documentation
-
-- Project Overview
-- Application Analysis
-- Test Plan
-- Test Scenario
-- Test Cases
-- Test Execution
-- Bug Report
-- Evidence Documentation
-
-## QA Concepts
-
-- Software Testing Life Cycle (STLC)
-- Test Planning
-- Entry & Exit Criteria
-- Test Prioritization
-- Risk Assessment
-- Defect Lifecycle
-- Severity & Priority Classification
+- API Testing *(Learning)*
+- Test Automation *(Learning)*
 
 ---
 
 # Repository Structure
 
-```text
-docs/
-├── project-overview.md
-└── application-analysis.md
-
-manual-testing/
-├── 01-test-plans/
-├── 02-test-scenarios/
-├── 03-test-cases/
-├── 04-test-executions/
-├── 05-bug-reports/
-└── evidence/
+```
+QA-Portfolio
+│
+├── OrangeHRM
+│   ├── Authentication
+│   │   └── Login
+│   │
+│   ├── Admin
+│   │   ├── User Management
+│   │   ├── Job Titles
+│   │   └── Organization Locations
+│   │
+│   └── Test Summary Report
+│
+├── Future Projects
+│   ├── API Testing
+│   ├── Automation Testing
+│   └── Performance Testing
+│
+└── README.md
 ```
 
 ---
 
-# Current Project
+# QA Workflow
 
-## Application
+Each module follows the same documentation structure.
 
-**OrangeHRM Demo**
-
-## Current Progress
-
-### Authentication
-
-- Login
-
-### Admin
-
-- User Management
-- Job Titles
-- Organization → Locations
-
-### Planned
-
-- PIM
-- Leave
-- Time
-- Recruitment
-
----
-
-# Project Statistics
-
-| Metric | Value |
-|---------|------:|
-| Applications | 1 |
-| Modules Documented | 4 |
-| Test Scenarios | 90+ |
-| Test Cases | 120+ |
-| Executed Test Cases | 11 |
-| Bugs Reported | 1 |
-
-> Statistics will continue to grow as the portfolio expands.
-
----
-
-# Project Progress
-
-| Phase | Status |
-|--------|--------|
-| Project Overview | ✅ |
-| Application Analysis | ✅ |
-| Test Plan | ✅ |
-| Test Scenario | ✅ |
-| Test Cases | ✅ |
-| Test Execution | 🟡 In Progress |
-| Evidence Collection | 🟡 In Progress |
-| Bug Reporting | 🟡 In Progress |
-| Qase.io Implementation | ⏳ Planned |
-| API Testing | ⏳ Planned |
-| Automation Testing | ⏳ Planned |
-
----
-
-# Testing Workflow
-
-```text
+```
 Requirement Analysis
         ↓
-Application Analysis
+Test Scenario
         ↓
-Test Planning
-        ↓
-Test Scenario Design
-        ↓
-Test Case Design
+Test Cases
         ↓
 Test Execution
         ↓
 Evidence Collection
         ↓
-Bug Reporting
+Bug Report
+        ↓
+Test Summary Report
 ```
 
 ---
 
-# Documentation
+# Current Projects
 
-## Project Documentation
+## OrangeHRM Demo
 
-- ✅ Project Overview
-- ✅ Application Analysis
+### Authentication
 
-## Authentication
-
-- ✅ Login Test Plan
-- ✅ Login Test Scenario
-- ✅ Login Test Cases
-- ✅ Login Test Execution
-- ✅ Login Bug Report
-
-## Admin
-
-### User Management
-
-- ✅ Test Plan
-- ✅ Test Scenario
-- ✅ Test Cases
-- ⏳ Test Execution
-
-### Job Titles
-
-- ✅ Test Plan
-- ✅ Test Scenario
-- ✅ Test Cases
-- ⏳ Test Execution
-
-### Organization → Locations
-
-- ✅ Test Plan
-- ✅ Test Scenario
-- ✅ Test Cases
-- ⏳ Test Execution
+| Feature | Status |
+|---------|--------|
+| Login |  Completed |
 
 ---
 
-# Future Roadmap
+### Admin Module
 
-## Manual Testing
+| Feature | Status |
+|---------|--------|
+| User Management |  Completed |
+| Job Titles |  Completed |
+| Organization Locations |  Completed |
 
-- Complete Admin Module
-- Complete PIM Module
-- Complete Leave Module
-- Complete Time Module
-- Complete Recruitment Module
+---
 
-## QA Tools
+# Portfolio Statistics
 
-- Organize Test Cases using Qase.io
-- Learn API Testing with Postman
-- Learn SQL for Database Validation
+| Metric | Value |
+|---------|------:|
+| Applications Tested | 1 |
+| Modules Completed | 4 |
+| Test Scenarios | 100+ |
+| Test Cases | 120+ |
+| Executed Test Cases | 120+ |
+| Bug Reports | 1 |
 
-## Automation
+> Statistics will continue to grow as new testing projects are added.
 
-- Learn Playwright
-- Learn Selenium
-- Build Automation Testing Portfolio
+---
+
+# Testing Artifacts
+
+This repository contains professional QA documentation including:
+
+- Requirement Analysis
+- Test Scenarios
+- Test Cases
+- Test Execution Reports
+- Execution Evidence
+- Bug Reports
+- Test Summary Reports
+
+---
+
+# Testing Techniques
+
+The following testing techniques are applied throughout the projects:
+
+- Black Box Testing
+- Equivalence Partitioning
+- Boundary Value Analysis (BVA)
+- Error Guessing
+- Exploratory Testing
+- Validation Testing
+- Functional Testing
+- UI Testing
+
+---
+
+# Tools
+
+### Test Management
+
+- Markdown Documentation
+- Git
+- GitHub
+
+### Browser
+
+- Google Chrome
+- Chrome DevTools
+
+### Development
+
+- Visual Studio Code
+
+### Evidence Collection
+
+- Windows Snipping Tool
+
+---
+
+# Current Roadmap
+
+## Completed
+
+- Authentication - Login
+- Admin - User Management
+- Admin - Job Titles
+- Admin - Organization Locations
+
+## Planned
+
+- Admin Modules (Remaining Features)
+- PIM Module
+- Leave Module
+- Time Module
+- Recruitment Module
+- API Testing
+- Automation Testing (Playwright)
+- Performance Testing
+
+---
+
+# Repository Highlights
+
+Structured QA documentation
+
+Real application testing
+
+Manual functional testing
+
+Test execution tracking
+
+Evidence collection
+
+Bug reporting
+
+Professional documentation standards
+
+---
+
+# Goal
+
+The purpose of this repository is to document my learning journey while building a professional QA portfolio that reflects real testing practices used in software development teams.
+
+As new projects are completed, this repository will continue to expand with additional applications, testing types, and automation frameworks.
 
 ---
 
 # Contact
 
-**LinkedIn**
+**Nurrohmi Zaki**
 
-https://www.linkedin.com/in/nurrohmi-zaki-78b447294/
-
-**GitHub**
-
-https://github.com/siKic0l
+- GitHub: https://github.com/siKic0l
+- LinkedIn: [*(Nurrohmi Zaki)*](https://www.linkedin.com/in/nurrohmi-zaki-78b447294/)
