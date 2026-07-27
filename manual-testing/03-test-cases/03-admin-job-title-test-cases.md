@@ -41,7 +41,7 @@ Before executing the test cases, ensure that:
 | QA Engineer | Duplicate title | qa-spec.pdf | Duplicate | Duplicate validation |
 | *(empty)* | Any | Any | Any | Required validation |
 | Video File | Sample | sample.mp4 | Invalid | Unsupported file |
-| Large File | Sample | specification_1_9MB.pdf | Boundary | File size validation |
+| Large File | Sample | specification_1_5MB.pdf | Boundary | File size validation |
 
 ---
 
