@@ -99,7 +99,7 @@ Clear any previous authentication error messages before performing client-side v
 
 | Test Case | Result |
 |-----------|--------|
-| TC_LOGIN_011 | ❌ FAIL |
+| TC_LOGIN_011 | FAIL |
 
 ---
 
