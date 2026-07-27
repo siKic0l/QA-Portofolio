@@ -72,14 +72,14 @@ The objective is to ensure that administrators can search, create, update, and d
 
 | Feature | Coverage |
 |----------|----------|
-| User List | ✅ |
-| Search | ✅ |
-| Add User | ✅ |
-| Edit User | ✅ |
-| Change Password | ✅ |
-| Delete User | ✅ |
-| Sorting | ✅ |
-| Validation | ✅ |
+| User List | Yes |
+| Search | Yes |
+| Add User | Yes |
+| Edit User | Yes |
+| Change Password | Yes |
+| Delete User | Yes |
+| Sorting | Yes |
+| Validation | Yes |
 
 ---
 
