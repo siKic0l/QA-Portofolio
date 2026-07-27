@@ -938,12 +938,12 @@ Verify that uploaded Job Specification files comply with the documented maximum 
 |------|--------|
 |1|Click **Add**.|
 |2|Enter a valid Job Title.|
-|3|Upload a Job Specification file larger than **1 MB**.|
+|3|Upload a Job Specification file larger than **100 MB**.|
 |4|Click **Save**.|
 
 ### Expected Result
 
-- System rejects files larger than **1 MB**.
+- System accept files larger than **100 MB**.
 - Appropriate validation message is displayed.
 - Job Title is not created.
 
