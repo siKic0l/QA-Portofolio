@@ -36,26 +36,26 @@ Before executing the test scenarios, ensure that:
 
 | Scenario ID | Scenario | Priority |
 |-------------|----------|----------|
-| TS_JOB_001 | Verify Job Titles page loads successfully | High |
-| TS_JOB_002 | Verify Job Titles table displays correctly | High |
-| TS_JOB_003 | Verify Add button opens the Add Job Title form | High |
-| TS_JOB_004 | Verify Edit button opens the Edit Job Title form | High |
-| TS_JOB_005 | Verify Delete button opens the confirmation dialog | High |
-| TS_JOB_006 | Verify a new Job Title can be added successfully | High |
-| TS_JOB_007 | Verify Job Title is a required field | High |
-| TS_JOB_008 | Verify duplicate Job Title is not allowed | High |
-| TS_JOB_009 | Verify Job Description field is optional | Medium |
-| TS_JOB_010 | Verify Notes field is optional | Medium |
-| TS_JOB_011 | Verify supported specification files can be uploaded | Medium |
-| TS_JOB_012 | Verify unsupported file types are rejected | High |
-| TS_JOB_013 | Verify uploaded specification file can be replaced during edit | Medium |
-| TS_JOB_014 | Verify Job Title information can be edited successfully | High |
-| TS_JOB_015 | Verify Cancel button discards changes | Medium |
-| TS_JOB_016 | Verify a single Job Title can be deleted | High |
-| TS_JOB_017 | Verify multiple Job Titles can be deleted | High |
-| TS_JOB_018 | Verify Select All checkbox functionality | Medium |
-| TS_JOB_019 | Verify Job Title sorting in ascending and descending order | Medium |
-| TS_JOB_020 | Verify total record count updates after Add and Delete operations | Medium |
+| TS_ADMIN_JOB_001 | Verify Job Titles page loads successfully | High |
+| TS_ADMIN_JOB_002 | Verify Job Titles table displays correctly | High |
+| TS_ADMIN_JOB_003 | Verify Add button opens the Add Job Title form | High |
+| TS_ADMIN_JOB_004 | Verify Edit button opens the Edit Job Title form | High |
+| TS_ADMIN_JOB_005 | Verify Delete button opens the confirmation dialog | High |
+| TS_ADMIN_JOB_006 | Verify a new Job Title can be added successfully | High |
+| TS_ADMIN_JOB_007 | Verify Job Title is a required field | High |
+| TS_ADMIN_JOB_008 | Verify duplicate Job Title is not allowed | High |
+| TS_ADMIN_JOB_009 | Verify Job Description field is optional | Medium |
+| TS_ADMIN_JOB_010 | Verify Notes field is optional | Medium |
+| TS_ADMIN_JOB_011 | Verify supported specification files can be uploaded | Medium |
+| TS_ADMIN_JOB_012 | Verify unsupported file types are rejected | High |
+| TS_ADMIN_JOB_013 | Verify uploaded specification file can be replaced during edit | Medium |
+| TS_ADMIN_JOB_014 | Verify Job Title information can be edited successfully | High |
+| TS_ADMIN_JOB_015 | Verify Cancel button discards changes | Medium |
+| TS_ADMIN_JOB_016 | Verify a single Job Title can be deleted | High |
+| TS_ADMIN_JOB_017 | Verify multiple Job Titles can be deleted | High |
+| TS_ADMIN_JOB_018 | Verify Select All checkbox functionality | Medium |
+| TS_ADMIN_JOB_019 | Verify Job Title sorting in ascending and descending order | Medium |
+| TS_ADMIN_JOB_020 | Verify total record count updates after Add and Delete operations | Medium |
 
 ---
 
