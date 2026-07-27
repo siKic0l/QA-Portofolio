@@ -25,6 +25,17 @@ Currently focusing on:
 
 ---
 
+# Portfolio Highlights
+
+- 4 OrangeHRM modules completed
+- 100+ Manual Test Cases
+- Complete STLC documentation
+- Manual Functional Testing
+- Exploratory Testing
+- Bug Reporting
+- Test Execution Reports
+- Evidence Collection
+
 # Repository Structure
 
 ```text
@@ -45,6 +56,8 @@ QA-Portfolio
 │   ├── 04-test-executions
 │   │
 │   ├── 05-bug-reports
+│   │
+│   ├── 06-test-summary-reports
 │   │
 │   └── evidence
 │
@@ -72,6 +85,8 @@ Test Execution
 Evidence Collection
         ↓
 Bug Report
+        ↓
+Test Summary Reports
 ```
 
 ---
