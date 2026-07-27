@@ -52,7 +52,7 @@ Before executing the test cases, ensure that:
 
 ---
 
-## TC_LOC_001 - Verify Locations Page Loads Successfully
+## TC_ADMIN_LOC_001 - Verify Locations Page Loads Successfully
 
 **Priority**
 
@@ -76,7 +76,7 @@ Verify that the Locations page can be opened successfully.
 
 ---
 
-## TC_LOC_002 - Verify Locations Table Structure
+## TC_ADMIN_LOC_002 - Verify Locations Table Structure
 
 **Priority**
 
@@ -106,7 +106,7 @@ The table displays:
 
 ---
 
-## TC_LOC_003 - Search Using Full Location Name
+## TC_ADMIN_LOC_003 - Search Using Full Location Name
 
 **Priority**
 
@@ -129,7 +129,7 @@ Verify that users can search by the complete Location Name.
 
 ---
 
-## TC_LOC_004 - Search Using Partial Keyword
+## TC_ADMIN_LOC_004 - Search Using Partial Keyword
 
 **Priority**
 
@@ -152,7 +152,7 @@ Verify that search supports partial keywords.
 
 ---
 
-## TC_LOC_005 - Search Using City
+## TC_ADMIN_LOC_005 - Search Using City
 
 **Priority**
 
@@ -175,7 +175,7 @@ Verify that users can search locations by City.
 
 ---
 
-## TC_LOC_006 - Search Using Country
+## TC_ADMIN_LOC_006 - Search Using Country
 
 **Priority**
 
@@ -198,7 +198,7 @@ Verify that users can search locations by Country.
 
 ---
 
-## TC_LOC_007 - Search with No Matching Result
+## TC_ADMIN_LOC_007 - Search with No Matching Result
 
 **Priority**
 
@@ -222,7 +222,7 @@ Verify system behavior when no matching records exist.
 
 ---
 
-## TC_LOC_008 - Open Add Location Form
+## TC_ADMIN_LOC_008 - Open Add Location Form
 
 **Priority**
 
@@ -244,7 +244,7 @@ Verify that the Add Location form opens successfully.
 
 ---
 
-## TC_LOC_009 - Add Location with Valid Data
+## TC_ADMIN_LOC_009 - Add Location with Valid Data
 
 **Priority**
 
@@ -270,7 +270,7 @@ Verify that a new Location can be created successfully.
 
 ---
 
-## TC_LOC_010 - Add Location Using Only Required Fields
+## TC_ADMIN_LOC_010 - Add Location Using Only Required Fields
 
 **Priority**
 
@@ -295,7 +295,7 @@ Verify that only required fields are needed to create a Location.
 
 ---
 
-## TC_LOC_011 - Verify Required Validation for Location Name
+## TC_ADMIN_LOC_011 - Verify Required Validation for Location Name
 
 **Priority**
 
@@ -321,7 +321,7 @@ Verify that the Name field is mandatory.
 
 ---
 
-## TC_LOC_012 - Verify Required Validation for Country
+## TC_ADMIN_LOC_012 - Verify Required Validation for Country
 
 **Priority**
 
@@ -347,7 +347,7 @@ Verify that the Country field is mandatory.
 
 ---
 
-## TC_LOC_013 - Verify Duplicate Location Name Validation
+## TC_ADMIN_LOC_013 - Verify Duplicate Location Name Validation
 
 **Priority**
 
@@ -373,7 +373,7 @@ Verify that duplicate Location Names cannot be created.
 
 ---
 
-## TC_LOC_014 - Verify Country Dropdown Selection
+## TC_ADMIN_LOC_014 - Verify Country Dropdown Selection
 
 **Priority**
 
@@ -397,7 +397,7 @@ Verify that users can select a Country from the dropdown list.
 
 ---
 
-## TC_LOC_015 - Verify Country Selection Using Keyboard
+## TC_ADMIN_LOC_015 - Verify Country Selection Using Keyboard
 
 **Priority**
 
@@ -422,7 +422,7 @@ Verify that users can quickly select a Country using keyboard input.
 
 ---
 
-## TC_LOC_016 - Open Edit Location Form
+## TC_ADMIN_LOC_016 - Open Edit Location Form
 
 **Priority**
 
@@ -445,7 +445,7 @@ Verify that the Edit Location form opens successfully.
 
 ---
 
-## TC_LOC_017 - Update Location with Valid Data
+## TC_ADMIN_LOC_017 - Update Location with Valid Data
 
 **Priority**
 
@@ -471,7 +471,7 @@ Verify that Location information can be updated successfully.
 
 ---
 
-## TC_LOC_018 - Update Only One Field
+## TC_ADMIN_LOC_018 - Update Only One Field
 
 **Priority**
 
@@ -496,7 +496,7 @@ Verify that users can update only one field without changing the others.
 
 ---
 
-## TC_LOC_019 - Verify Required Validation During Edit
+## TC_ADMIN_LOC_019 - Verify Required Validation During Edit
 
 **Priority**
 
@@ -521,7 +521,7 @@ Verify that required validation is enforced during editing.
 
 ---
 
-## TC_LOC_020 - Cancel Edit Location
+## TC_ADMIN_LOC_020 - Cancel Edit Location
 
 **Priority**
 
@@ -547,7 +547,7 @@ Verify that cancelling an edit discards all changes.
 
 ---
 
-## TC_LOC_021 - Delete Location Successfully
+## TC_ADMIN_LOC_021 - Delete Location Successfully
 
 **Priority**
 
@@ -573,7 +573,7 @@ Verify that an existing Location can be deleted successfully.
 
 ---
 
-## TC_LOC_022 - Cancel Delete Location
+## TC_ADMIN_LOC_022 - Cancel Delete Location
 
 **Priority**
 
@@ -599,7 +599,7 @@ Verify that Location deletion is cancelled successfully.
 
 ---
 
-## TC_LOC_023 - Delete Multiple Locations
+## TC_ADMIN_LOC_023 - Delete Multiple Locations
 
 **Priority**
 
@@ -625,7 +625,7 @@ Verify that multiple Locations can be deleted simultaneously.
 
 ---
 
-## TC_LOC_024 - Verify Select All Checkbox
+## TC_ADMIN_LOC_024 - Verify Select All Checkbox
 
 **Priority**
 
@@ -649,7 +649,7 @@ Verify that the Select All checkbox selects all available records.
 
 ---
 
-## TC_LOC_025 - Verify Individual Row Selection
+## TC_ADMIN_LOC_025 - Verify Individual Row Selection
 
 **Priority**
 
@@ -672,7 +672,7 @@ Verify that users can select individual rows.
 
 ---
 
-## TC_LOC_026 - Verify Sorting by Name
+## TC_ADMIN_LOC_026 - Verify Sorting by Name
 
 **Priority**
 
@@ -696,7 +696,7 @@ Verify that the Name column supports ascending and descending sorting.
 
 ---
 
-## TC_LOC_027 - Verify Sorting by City
+## TC_ADMIN_LOC_027 - Verify Sorting by City
 
 **Priority**
 
@@ -719,7 +719,7 @@ Verify that the City column supports sorting.
 
 ---
 
-## TC_LOC_028 - Verify Sorting by Country
+## TC_ADMIN_LOC_028 - Verify Sorting by Country
 
 **Priority**
 
@@ -742,7 +742,7 @@ Verify that the Country column supports sorting.
 
 ---
 
-## TC_LOC_029 - Verify Sorting by Phone
+## TC_ADMIN_LOC_029 - Verify Sorting by Phone
 
 **Priority**
 
@@ -765,7 +765,7 @@ Verify that the Phone column supports sorting.
 
 ---
 
-## TC_LOC_030 - Verify Sorting by Number of Employees
+## TC_ADMIN_LOC_030 - Verify Sorting by Number of Employees
 
 **Priority**
 
@@ -788,7 +788,7 @@ Verify that the Number of Employees column supports sorting.
 
 ---
 
-## TC_LOC_031 - Verify Phone Field Accepts Valid Characters
+## TC_ADMIN_LOC_031 - Verify Phone Field Accepts Valid Characters
 
 **Priority**
 
@@ -814,7 +814,7 @@ Verify that the Phone field accepts valid phone number characters.
 
 ---
 
-## TC_LOC_032 - Verify Phone Field Rejects Alphabetic Characters
+## TC_ADMIN_LOC_032 - Verify Phone Field Rejects Alphabetic Characters
 
 **Priority**
 
@@ -840,7 +840,7 @@ Verify that the Phone field rejects alphabetic characters.
 
 ---
 
-## TC_LOC_033 - Verify Zip / Postal Code Accepts Numeric Value
+## TC_ADMIN_LOC_033 - Verify Zip / Postal Code Accepts Numeric Value
 
 **Priority**
 
@@ -866,7 +866,7 @@ Verify that the Zip / Postal Code field accepts numeric values.
 
 ---
 
-## TC_LOC_034 - Verify Zip / Postal Code Accepts Alphanumeric Value
+## TC_ADMIN_LOC_034 - Verify Zip / Postal Code Accepts Alphanumeric Value
 
 **Priority**
 
@@ -892,7 +892,7 @@ Verify that the Zip / Postal Code field accepts alphanumeric values.
 
 ---
 
-## TC_LOC_035 - Verify Zip / Postal Code Accepts Special Characters
+## TC_ADMIN_LOC_035 - Verify Zip / Postal Code Accepts Special Characters
 
 **Priority**
 
@@ -918,7 +918,7 @@ Verify that the Zip / Postal Code field accepts special characters.
 
 ---
 
-## TC_LOC_036 - Verify Success Toast Notification
+## TC_ADMIN_LOC_036 - Verify Success Toast Notification
 
 **Priority**
 
@@ -941,7 +941,7 @@ Verify that a success toast notification is displayed after a successful Add, Ed
 
 ---
 
-## TC_LOC_037 - Verify Total Records After CRUD Operations
+## TC_ADMIN_LOC_037 - Verify Total Records After CRUD Operations
 
 **Priority**
 
@@ -966,7 +966,7 @@ Verify that the total record count is updated after creating or deleting a Locat
 
 ---
 
-## TC_LOC_038 - Verify Existing Data Is Pre-filled During Edit
+## TC_ADMIN_LOC_038 - Verify Existing Data Is Pre-filled During Edit
 
 **Priority**
 
