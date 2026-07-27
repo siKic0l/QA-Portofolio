@@ -993,22 +993,22 @@ Verify that all existing Location information is automatically populated when op
 
 | Feature | Coverage |
 |----------|----------|
-| Page Navigation | ✅ |
-| Table Display | ✅ |
-| Search | ✅ |
-| Add Location | ✅ |
-| Edit Location | ✅ |
-| Delete Location | ✅ |
-| Multiple Delete | ✅ |
-| Select All | ✅ |
-| Required Validation | ✅ |
-| Duplicate Validation | ✅ |
-| Country Selection | ✅ |
-| Phone Validation | ✅ |
-| Zip / Postal Code Validation | ✅ |
-| Sorting | ✅ |
-| Toast Notification | ✅ |
-| Total Records | ✅ |
+| Page Navigation | Yes |
+| Table Display | Yes |
+| Search | Yes |
+| Add Location | Yes |
+| Edit Location | Yes |
+| Delete Location | Yes |
+| Multiple Delete | Yes |
+| Select All | Yes |
+| Required Validation | Yes |
+| Duplicate Validation | Yes |
+| Country Selection | Yes |
+| Phone Validation | Yes |
+| Zip / Postal Code Validation | Yes |
+| Sorting | Yes |
+| Toast Notification | Yes |
+| Total Records | Yes |
 
 ---
 
