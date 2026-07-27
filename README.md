@@ -27,25 +27,28 @@ Currently focusing on:
 
 # Repository Structure
 
-```
+```text
 QA-Portfolio
 │
-├── OrangeHRM
-│   ├── Authentication
-│   │   └── Login
-│   │
-│   ├── Admin
-│   │   ├── User Management
-│   │   ├── Job Titles
-│   │   └── Organization Locations
-│   │
-│   └── Test Summary Report
+├── docs
+│   ├── 01-project-overview.md
+│   └── 02-application-analysis.md
 │
-├── Future Projects
-│   ├── API Testing
-│   ├── Automation Testing
-│   └── Performance Testing
+├── manual-testing
+│   │
+│   ├── 01-test-plans
+│   │
+│   ├── 02-test-scenarios
+│   │
+│   ├── 03-test-cases
+│   │
+│   ├── 04-test-executions
+│   │
+│   ├── 05-bug-reports
+│   │
+│   └── evidence
 │
+├── CHANGELOG.md
 └── README.md
 ```
 
@@ -56,7 +59,9 @@ QA-Portfolio
 Each module follows the same documentation structure.
 
 ```
-Requirement Analysis
+Application Analysis
+        ↓
+Test Plan
         ↓
 Test Scenario
         ↓
@@ -67,8 +72,6 @@ Test Execution
 Evidence Collection
         ↓
 Bug Report
-        ↓
-Test Summary Report
 ```
 
 ---
