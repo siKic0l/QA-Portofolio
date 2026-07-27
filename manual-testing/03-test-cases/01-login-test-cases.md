@@ -343,15 +343,15 @@ Verify that the previous authentication error message is cleared when required f
 
 | Feature | Coverage |
 |----------|----------|
-| Valid Login | ✅ |
-| Invalid Username | ✅ |
-| Invalid Password | ✅ |
-| Empty Field Validation | ✅ |
-| Password Masking | ✅ |
-| Forgot Password | ✅ |
-| Keyboard Interaction | ✅ |
-| Username Whitespace Handling | ✅ |
-| Validation State Management | ✅ |
+| Valid Login | Yes |
+| Invalid Username | Yes |
+| Invalid Password | Yes |
+| Empty Field Validation | Yes |
+| Password Masking | Yes |
+| Forgot Password | Yes |
+| Keyboard Interaction | Yes |
+| Username Whitespace Handling | Yes |
+| Validation State Management | Yes |
 
 ---
 
