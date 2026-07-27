@@ -49,7 +49,7 @@ Before executing the test cases, ensure that:
 
 ---
 
-## TC_JOB_001 - Verify Job Titles Page Loads Successfully
+## TC_ADMIN_JOB_001 - Verify Job Titles Page Loads Successfully
 
 **Priority**
 
@@ -73,7 +73,7 @@ Verify that the Job Titles page loads correctly.
 
 ---
 
-## TC_JOB_002 - Verify Job Titles Table Structure
+## TC_ADMIN_JOB_002 - Verify Job Titles Table Structure
 
 **Priority**
 
@@ -100,7 +100,7 @@ Verify that the Job Titles table displays correctly.
 
 ---
 
-## TC_JOB_003 - Verify Add Button
+## TC_ADMIN_JOB_003 - Verify Add Button
 
 **Priority**
 
@@ -123,7 +123,7 @@ Verify that the Add button opens the Add Job Title form.
 
 ---
 
-## TC_JOB_004 - Verify Edit Button
+## TC_ADMIN_JOB_004 - Verify Edit Button
 
 **Priority**
 
@@ -146,7 +146,7 @@ Verify that the Edit button opens the Edit Job Title form.
 
 ---
 
-## TC_JOB_005 - Verify Delete Button
+## TC_ADMIN_JOB_005 - Verify Delete Button
 
 **Priority**
 
@@ -169,7 +169,7 @@ Verify that the Delete button opens the confirmation dialog.
 
 ---
 
-## TC_JOB_006 - Add Job Title with Valid Data
+## TC_ADMIN_JOB_006 - Add Job Title with Valid Data
 
 **Priority**
 
@@ -196,7 +196,7 @@ Verify that a new Job Title can be created successfully.
 
 ---
 
-## TC_JOB_007 - Verify Required Validation for Job Title
+## TC_ADMIN_JOB_007 - Verify Required Validation for Job Title
 
 **Priority**
 
@@ -221,7 +221,7 @@ Verify that Job Title is required.
 
 ---
 
-## TC_JOB_008 - Verify Duplicate Job Title Validation
+## TC_ADMIN_JOB_008 - Verify Duplicate Job Title Validation
 
 **Priority**
 
@@ -246,7 +246,7 @@ Verify that duplicate Job Titles cannot be created.
 
 ---
 
-## TC_JOB_009 - Add Job Title Without Description
+## TC_ADMIN_JOB_009 - Add Job Title Without Description
 
 **Priority**
 
@@ -270,7 +270,7 @@ Verify that Job Description is optional.
 
 ---
 
-## TC_JOB_010 - Add Job Title Without Notes
+## TC_ADMIN_JOB_010 - Add Job Title Without Notes
 
 **Priority**
 
@@ -294,7 +294,7 @@ Verify that Notes field is optional.
 
 ---
 
-## TC_JOB_011 - Add Job Title Without Optional Fields
+## TC_ADMIN_JOB_011 - Add Job Title Without Optional Fields
 
 **Priority**
 
@@ -321,7 +321,7 @@ Verify that a Job Title can be created by providing only the required field.
 
 ---
 
-## TC_JOB_012 - Upload Supported Image File
+## TC_ADMIN_JOB_012 - Upload Supported Image File
 
 **Priority**
 
@@ -347,7 +347,7 @@ Verify that supported image files can be uploaded successfully.
 
 ---
 
-## TC_JOB_013 - Upload Unsupported File Type
+## TC_ADMIN_JOB_013 - Upload Unsupported File Type
 
 **Priority**
 
@@ -374,7 +374,7 @@ Verify that unsupported file types cannot be uploaded.
 
 ---
 
-## TC_JOB_014 - Upload File Larger Than Documented Limit
+## TC_ADMIN_JOB_014 - Upload File Larger Than Documented Limit
 
 **Priority**
 
@@ -401,7 +401,7 @@ Verify that files larger than the documented maximum size cannot be uploaded.
 
 ---
 
-## TC_JOB_015 - Cancel Add Job Title
+## TC_ADMIN_JOB_015 - Cancel Add Job Title
 
 **Priority**
 
@@ -426,7 +426,7 @@ Verify that clicking Cancel discards the new Job Title.
 
 ---
 
-## TC_JOB_016 - Edit Job Title Successfully
+## TC_ADMIN_JOB_016 - Edit Job Title Successfully
 
 **Priority**
 
@@ -453,7 +453,7 @@ Verify that an existing Job Title can be edited successfully.
 
 ---
 
-## TC_JOB_017 - Edit Job Description
+## TC_ADMIN_JOB_017 - Edit Job Description
 
 **Priority**
 
@@ -477,7 +477,7 @@ Verify that Job Description can be updated.
 
 ---
 
-## TC_JOB_018 - Edit Notes
+## TC_ADMIN_JOB_018 - Edit Notes
 
 **Priority**
 
@@ -501,7 +501,7 @@ Verify that Notes can be updated successfully.
 
 ---
 
-## TC_JOB_019 - Replace Uploaded Specification File
+## TC_ADMIN_JOB_019 - Replace Uploaded Specification File
 
 **Priority**
 
@@ -526,7 +526,7 @@ Verify that the uploaded Job Specification file can be replaced.
 
 ---
 
-## TC_JOB_020 - Edit Job Title to Duplicate Name
+## TC_ADMIN_JOB_020 - Edit Job Title to Duplicate Name
 
 **Priority**
 
@@ -551,7 +551,7 @@ Verify that duplicate Job Titles are not allowed during editing.
 
 ---
 
-## TC_JOB_021 - Cancel Job Title Update
+## TC_ADMIN_JOB_021 - Cancel Job Title Update
 
 **Priority**
 
@@ -577,7 +577,7 @@ Verify that clicking **Cancel** during editing discards all changes.
 
 ---
 
-## TC_JOB_022 - Verify Success Toast After Updating Job Title
+## TC_ADMIN_JOB_022 - Verify Success Toast After Updating Job Title
 
 **Priority**
 
@@ -601,7 +601,7 @@ Verify that a success notification is displayed after updating a Job Title.
 
 ---
 
-## TC_JOB_023 - Delete a Job Title Successfully
+## TC_ADMIN_JOB_023 - Delete a Job Title Successfully
 
 **Priority**
 
@@ -627,7 +627,7 @@ Verify that a Job Title can be deleted successfully.
 
 ---
 
-## TC_JOB_024 - Cancel Job Title Deletion
+## TC_ADMIN_JOB_024 - Cancel Job Title Deletion
 
 **Priority**
 
@@ -653,7 +653,7 @@ Verify that deletion is cancelled when the user selects **Cancel**.
 
 ---
 
-## TC_JOB_025 - Delete Multiple Job Titles
+## TC_ADMIN_JOB_025 - Delete Multiple Job Titles
 
 **Priority**
 
@@ -679,7 +679,7 @@ Verify that multiple selected Job Titles can be deleted successfully.
 
 ---
 
-## TC_JOB_026 - Select All Job Titles
+## TC_ADMIN_JOB_026 - Select All Job Titles
 
 **Priority**
 
@@ -704,7 +704,7 @@ Verify that the **Select All** checkbox selects every Job Title in the table.
 
 ---
 
-## TC_JOB_027 - Verify Success Toast After Deletion
+## TC_ADMIN_JOB_027 - Verify Success Toast After Deletion
 
 **Priority**
 
@@ -728,7 +728,7 @@ Verify that a success notification appears after deleting a Job Title.
 
 ---
 
-## TC_JOB_028 - Verify Job Title Sorting (Ascending)
+## TC_ADMIN_JOB_028 - Verify Job Title Sorting (Ascending)
 
 **Priority**
 
@@ -750,7 +750,7 @@ Verify that the Job Title column can be sorted in ascending order.
 
 ---
 
-## TC_JOB_029 - Verify Job Title Sorting (Descending)
+## TC_ADMIN_JOB_029 - Verify Job Title Sorting (Descending)
 
 **Priority**
 
@@ -772,7 +772,7 @@ Verify that the Job Title column can be sorted in descending order.
 
 ---
 
-## TC_JOB_030 - Verify Checkbox Selection
+## TC_ADMIN_JOB_030 - Verify Checkbox Selection
 
 **Priority**
 
@@ -795,7 +795,7 @@ Verify that individual Job Titles can be selected using the checkbox.
 
 ---
 
-## TC_JOB_031 - Verify Total Record Count After Adding a Job Title
+## TC_ADMIN_JOB_031 - Verify Total Record Count After Adding a Job Title
 
 **Priority**
 
@@ -820,7 +820,7 @@ Verify that the total record count is updated after a new Job Title is added.
 
 ---
 
-## TC_JOB_032 - Verify Total Record Count After Deleting a Job Title
+## TC_ADMIN_JOB_032 - Verify Total Record Count After Deleting a Job Title
 
 **Priority**
 
@@ -845,7 +845,7 @@ Verify that the total record count is updated after deleting a Job Title.
 
 ---
 
-## TC_JOB_033 - Upload JPG/JPEG Image as Job Specification
+## TC_ADMIN_JOB_033 - Upload JPG/JPEG Image as Job Specification
 
 **Priority**
 
@@ -871,7 +871,7 @@ Verify that JPG/JPEG image files can be uploaded successfully as Job Specificati
 
 ---
 
-## TC_JOB_034 - Upload PNG Image as Job Specification
+## TC_ADMIN_JOB_034 - Upload PNG Image as Job Specification
 
 **Priority**
 
@@ -897,7 +897,7 @@ Verify that PNG image files can be uploaded successfully as Job Specification.
 
 ---
 
-## TC_JOB_035 - Verify Job Title Uniqueness
+## TC_ADMIN_JOB_035 - Verify Job Title Uniqueness
 
 **Priority**
 
@@ -922,7 +922,7 @@ Verify that each Job Title must be unique.
 
 ---
 
-## TC_JOB_036 - Verify Job Specification File Size Limit
+## TC_ADMIN_JOB_036 - Verify Job Specification File Size Limit
 
 **Priority**
 
