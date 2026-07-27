@@ -53,14 +53,14 @@ The purpose of this document is to define high-level test scenarios for the Logi
 
 | Category | Covered |
 |----------|---------|
-| Positive Testing | ✅ |
-| Negative Testing | ✅ |
-| Input Validation | ✅ |
-| Navigation | ✅ |
-| Session Management | ✅ |
-| Authentication | ✅ |
-| Basic Security | ✅ |
-| UI Verification | ✅ |
+| Positive Testing | Yes |
+| Negative Testing | Yes |
+| Input Validation | Yes |
+| Navigation | Yes |
+| Session Management | Yes |
+| Authentication | Yes |
+| Basic Security | Yes |
+| UI Verification | Yes |
 
 ---
 
