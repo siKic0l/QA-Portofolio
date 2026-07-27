@@ -1068,16 +1068,16 @@ Verify that the Employee Name field only accepts existing employees from the aut
 
 | Feature | Coverage |
 |----------|----------|
-| User List | ✅ |
-| Search User | ✅ |
-| Add User | ✅ |
-| Edit User | ✅ |
-| Delete User | ✅ |
-| Sorting | ✅ |
-| Username Validation | ✅ |
-| Employee Name Validation | ✅ |
-| Password Validation | ✅ |
-| Toast Notification | ✅ |
+| User List | Yes |
+| Search User | Yes |
+| Add User | Yes |
+| Edit User | Yes |
+| Delete User | Yes |
+| Sorting | Yes |
+| Username Validation | Yes |
+| Employee Name Validation | Yes |
+| Password Validation | Yes |
+| Toast Notification | Yes |
 
 ---
 
