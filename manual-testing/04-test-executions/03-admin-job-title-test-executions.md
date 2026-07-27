@@ -27,42 +27,42 @@ The purpose of this document is to track execution progress, record actual resul
 
 | Test Case ID | Test Case | Expected Result | Actual Result | Status | Evidence | Bug ID |
 |--------------|-----------|-----------------|---------------|--------|----------|--------|
-| TC_JOB_001 | Verify Job Titles page loads successfully | Job Titles page loads successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_002 | Verify Job Titles table structure | Table and columns are displayed correctly. | - | ⏳ Not Executed | - | - |
-| TC_JOB_003 | Verify Add button | Add Job Title form is displayed. | - | ⏳ Not Executed | - | - |
-| TC_JOB_004 | Verify Edit button | Edit Job Title form is displayed. | - | ⏳ Not Executed | - | - |
-| TC_JOB_005 | Verify Delete button | Delete confirmation dialog is displayed. | - | ⏳ Not Executed | - | - |
-| TC_JOB_006 | Add Job Title with valid data | New Job Title is created successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_007 | Verify required validation for Job Title | Required validation message is displayed. | - | ⏳ Not Executed | - | - |
-| TC_JOB_008 | Verify duplicate Job Title validation | Duplicate Job Title is rejected. | - | ⏳ Not Executed | - | - |
-| TC_JOB_009 | Add Job Title without Description | Job Title is created successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_010 | Add Job Title without Notes | Job Title is created successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_011 | Add Job Title without optional fields | Job Title is created successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_012 | Upload supported image file | Supported file is uploaded successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_013 | Upload unsupported file type | Unsupported file is rejected. | - | ⏳ Not Executed | - | - |
-| TC_JOB_014 | Upload file larger than documented limit | File larger than 1 MB is rejected. | - | ⏳ Not Executed | - | - |
-| TC_JOB_015 | Cancel Add Job Title | Add operation is cancelled without saving data. | - | ⏳ Not Executed | - | - |
-| TC_JOB_016 | Edit Job Title successfully | Job Title is updated successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_017 | Edit Job Description | Job Description is updated successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_018 | Edit Notes | Notes are updated successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_019 | Replace uploaded specification file | Uploaded file is replaced successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_020 | Edit Job Title to duplicate name | Duplicate validation message is displayed. | - | ⏳ Not Executed | - | - |
-| TC_JOB_021 | Cancel Job Title update | Changes are discarded successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_022 | Verify success toast after updating Job Title | Success toast notification is displayed. | - | ⏳ Not Executed | - | - |
-| TC_JOB_023 | Delete a Job Title successfully | Selected Job Title is deleted successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_024 | Cancel Job Title deletion | Deletion is cancelled successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_025 | Delete multiple Job Titles | Selected Job Titles are deleted successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_026 | Select All Job Titles | All rows are selected successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_027 | Verify success toast after deletion | Success toast notification is displayed. | - | ⏳ Not Executed | - | - |
-| TC_JOB_028 | Verify Job Title sorting (Ascending) | Job Titles are sorted in ascending order. | - | ⏳ Not Executed | - | - |
-| TC_JOB_029 | Verify Job Title sorting (Descending) | Job Titles are sorted in descending order. | - | ⏳ Not Executed | - | - |
-| TC_JOB_030 | Verify checkbox selection | Checkbox selection works correctly. | - | ⏳ Not Executed | - | - |
-| TC_JOB_031 | Verify total record count after adding a Job Title | Total record count increases by one. | - | ⏳ Not Executed | - | - |
-| TC_JOB_032 | Verify total record count after deleting a Job Title | Total record count decreases by one. | - | ⏳ Not Executed | - | - |
-| TC_JOB_033 | Upload JPG/JPEG image as Job Specification | JPG/JPEG image is uploaded successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_034 | Upload PNG image as Job Specification | PNG image is uploaded successfully. | - | ⏳ Not Executed | - | - |
-| TC_JOB_035 | Verify Job Title uniqueness | Duplicate Job Title cannot be created. | - | ⏳ Not Executed | - | - |
-| TC_JOB_036 | Verify Job Specification file size limit | Files larger than 1 MB are rejected. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_001 | Verify Job Titles page loads successfully | Job Titles page loads successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_002 | Verify Job Titles table structure | Table and columns are displayed correctly. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_003 | Verify Add button | Add Job Title form is displayed. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_004 | Verify Edit button | Edit Job Title form is displayed. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_005 | Verify Delete button | Delete confirmation dialog is displayed. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_006 | Add Job Title with valid data | New Job Title is created successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_007 | Verify required validation for Job Title | Required validation message is displayed. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_008 | Verify duplicate Job Title validation | Duplicate Job Title is rejected. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_009 | Add Job Title without Description | Job Title is created successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_010 | Add Job Title without Notes | Job Title is created successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_011 | Add Job Title without optional fields | Job Title is created successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_012 | Upload supported image file | Supported file is uploaded successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_013 | Upload unsupported file type | Unsupported file is rejected. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_014 | Upload file larger than documented limit | File larger than 1 MB is rejected. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_015 | Cancel Add Job Title | Add operation is cancelled without saving data. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_016 | Edit Job Title successfully | Job Title is updated successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_017 | Edit Job Description | Job Description is updated successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_018 | Edit Notes | Notes are updated successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_019 | Replace uploaded specification file | Uploaded file is replaced successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_020 | Edit Job Title to duplicate name | Duplicate validation message is displayed. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_021 | Cancel Job Title update | Changes are discarded successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_022 | Verify success toast after updating Job Title | Success toast notification is displayed. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_023 | Delete a Job Title successfully | Selected Job Title is deleted successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_024 | Cancel Job Title deletion | Deletion is cancelled successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_025 | Delete multiple Job Titles | Selected Job Titles are deleted successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_026 | Select All Job Titles | All rows are selected successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_027 | Verify success toast after deletion | Success toast notification is displayed. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_028 | Verify Job Title sorting (Ascending) | Job Titles are sorted in ascending order. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_029 | Verify Job Title sorting (Descending) | Job Titles are sorted in descending order. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_030 | Verify checkbox selection | Checkbox selection works correctly. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_031 | Verify total record count after adding a Job Title | Total record count increases by one. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_032 | Verify total record count after deleting a Job Title | Total record count decreases by one. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_033 | Upload JPG/JPEG image as Job Specification | JPG/JPEG image is uploaded successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_034 | Upload PNG image as Job Specification | PNG image is uploaded successfully. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_035 | Verify Job Title uniqueness | Duplicate Job Title cannot be created. | - | ⏳ Not Executed | - | - |
+| TC_ADMIN_JOB_036 | Verify Job Specification file size limit | Files larger than 1 MB are rejected. | - | ⏳ Not Executed | - | - |
 
 ---
 
