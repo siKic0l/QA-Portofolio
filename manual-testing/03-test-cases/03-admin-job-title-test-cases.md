@@ -926,21 +926,21 @@ Verify that uploaded Job Specification files comply with the documented maximum 
 
 | Feature | Coverage |
 |----------|----------|
-| Page Navigation | ✅ |
-| Table Display | ✅ |
-| Add Job Title | ✅ |
-| Edit Job Title | ✅ |
-| Delete Job Title | ✅ |
-| Multiple Delete | ✅ |
-| Select All | ✅ |
-| Required Validation | ✅ |
-| Duplicate Validation | ✅ |
-| File Upload | ✅ |
-| File Type Validation | ✅ |
-| File Size Validation | ✅ |
-| Sorting | ✅ |
-| Toast Notification | ✅ |
-| Total Records | ✅ |
+| Page Navigation | Yes |
+| Table Display | Yes |
+| Add Job Title | Yes |
+| Edit Job Title | Yes |
+| Delete Job Title | Yes |
+| Multiple Delete | Yes |
+| Select All | Yes |
+| Required Validation | Yes |
+| Duplicate Validation | Yes |
+| File Upload | Yes |
+| File Type Validation | Yes |
+| File Size Validation | Yes |
+| Sorting | Yes |
+| Toast Notification | Yes |
+| Total Records | Yes |
 
 ---
 
