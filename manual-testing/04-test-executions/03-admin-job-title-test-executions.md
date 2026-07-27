@@ -18,7 +18,7 @@ The purpose of this document is to track execution progress, record actual resul
 | Test Type | Manual Functional Testing |
 | Tester | Nurrohmi Zaki |
 | Environment | Windows 11 • Google Chrome (Latest) |
-| Execution Date | *To be updated* |
+| Execution Date | July 27, 2026 |
 | Execution Status | Completed |
 
 ---
