@@ -133,14 +133,14 @@ The following deliverables are available within this repository.
 
 | Deliverable | Status |
 |-------------|--------|
-| Project Overview | ✅ |
-| Application Analysis | ✅ |
-| Test Plan | ✅ |
-| Test Scenarios | ✅ |
-| Test Cases | ✅ |
-| Test Execution Reports | ✅ |
-| Testing Evidence | ✅ |
-| Bug Reports | ✅ |
+| Project Overview | Completed |
+| Application Analysis | Completed |
+| Test Plan | Completed |
+| Test Scenarios | Completed |
+| Test Cases | Completed |
+| Test Execution Reports | Completed |
+| Testing Evidence | Completed |
+| Bug Reports | Completed |
 
 ---
 
