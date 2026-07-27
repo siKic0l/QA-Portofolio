@@ -54,20 +54,20 @@ The objective is to identify all major functional flows and validation areas bef
 
 | Area | Covered |
 |------|----------|
-| Page Navigation | ✅ |
-| Search | ✅ |
-| Add Location | ✅ |
-| Edit Location | ✅ |
-| Delete Location | ✅ |
-| Multiple Delete | ✅ |
-| Table Interaction | ✅ |
-| Required Validation | ✅ |
-| Duplicate Validation | ✅ |
-| Country Selection | ✅ |
-| Phone Validation | ✅ |
-| Zip / Postal Code Input | ✅ |
-| Toast Notification | ✅ |
-| Total Records | ✅ |
+| Page Navigation | Yes |
+| Search | Yes |
+| Add Location | Yes |
+| Edit Location | Yes |
+| Delete Location | Yes |
+| Multiple Delete | Yes |
+| Table Interaction | Yes |
+| Required Validation | Yes |
+| Duplicate Validation | Yes |
+| Country Selection | Yes |
+| Phone Validation | Yes |
+| Zip / Postal Code Input | Yes |
+| Toast Notification | Yes |
+| Total Records | Yes |
 
 ---
 
