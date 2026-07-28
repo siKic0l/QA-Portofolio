@@ -164,6 +164,7 @@ The following testing techniques are applied throughout the projects:
 - Markdown Documentation
 - Git
 - GitHub
+- Qase.io
 
 ### Browser
 
