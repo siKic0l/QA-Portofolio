@@ -90,6 +90,20 @@ The following Qase features are used in this project:
 
 ---
 
+# Public Test Report
+
+The complete manual testing execution can be viewed here:
+
+[Test Report](https://app.qase.io/public/report/9c71f87df569b6ce48dfb60dfd6e4640dfe09788#test-cases)
+
+This report includes:
+
+- Test Suites
+- Test Runs
+- Execution History
+- Execution Metrics
+- Test Results
+
 # Notes
 
 GitHub serves as the documentation repository, while Qase is used as the execution and management platform for manual testing activities.
