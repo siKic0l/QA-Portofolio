@@ -186,3 +186,20 @@ This portfolio aims to demonstrate:
 - Learn Selenium
 - Build automation testing projects
 - Integrate automated tests with GitHub Actions
+
+## Test Management
+
+This project is managed using **Qase.io** to simulate a real-world QA workflow.
+
+### Public Report
+
+🔗 View Test Report:
+[Test Report](https://app.qase.io/public/report/9c71f87df569b6ce48dfb60dfd6e4640dfe09788#test-cases)
+
+The report contains:
+
+- Test Suites
+- Test Cases
+- Test Runs
+- Execution Results
+- Pass / Fail Metrics
