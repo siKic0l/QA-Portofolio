@@ -164,7 +164,20 @@ The following testing techniques are applied throughout the projects:
 - Markdown Documentation
 - Git
 - GitHub
-- Qase.io
+- This project is managed using **Qase.io** to simulate a real-world QA workflow.
+
+### Public Report
+
+🔗 View Test Report:
+https://app.qase.io/public/report/xxxxxxxx
+
+The report contains:
+
+- Test Suites
+- Test Cases
+- Test Runs
+- Execution Results
+- Pass / Fail Metrics
 
 ### Browser
 
