@@ -189,23 +189,13 @@ The following testing techniques are applied throughout the projects:
 
 ### Test Management
 
-- Markdown Documentation
-- Git
-- GitHub
 - This project is managed using **Qase.io** to simulate a real-world QA workflow.
 
-### Public Report
+### Documentation
 
-🔗 View Test Report:
-[Test Report](https://app.qase.io/public/report/9c71f87df569b6ce48dfb60dfd6e4640dfe09788#test-cases)
-
-The report contains:
-
-- Test Suites
-- Test Cases
-- Test Runs
-- Execution Results
-- Pass / Fail Metrics
+- Markdown
+- Git
+- Github
 
 ### Browser
 
@@ -221,6 +211,59 @@ The report contains:
 - Windows Snipping Tool
 
 ---
+
+# Qase Integration
+
+This portfolio uses **Qase.io** as the Test Management System to simulate an industry-standard QA workflow.
+
+The following activities are managed through Qase:
+
+- Test Suite Management
+- Test Case Management
+- Test Run Execution
+- Manual Test Execution
+- Test Result Tracking
+- Execution Metrics
+
+---
+
+## Public Test Report
+
+🔗 **View Public Report**
+
+[Test Report](https://app.qase.io/public/report/9c71f87df569b6ce48dfb60dfd6e4640dfe09788#test-cases)
+
+---
+
+## Qase Dashboard
+
+[Qase Dashboard](Qase/screenshots/dashboard.png)
+
+Shows an overview of the testing project, including test suites, executions, and overall progress.
+
+---
+
+## Test Suites
+
+[Test Suites](Qase/screenshots/test-suites.png)
+
+Organizes test cases by application modules to simplify execution and maintenance.
+
+---
+
+## Test Run
+
+[Test Run](Qase/screenshots/test-run.png)
+
+Displays the manual execution process and execution status for every test case.
+
+---
+
+## Execution Summary
+
+[Execution Summary](Qase/screenshots/execution-summary.png)
+
+Provides execution statistics including Passed, Failed, Blocked, and overall Pass Rate.
 
 # Current Roadmap
 
