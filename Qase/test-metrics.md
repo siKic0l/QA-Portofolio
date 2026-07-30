@@ -69,6 +69,12 @@ The portfolio will continue to expand with additional modules:
 
 ---
 
+## Live Report
+
+For the latest execution metrics, visit the Qase Public Report.
+
+[Test Report](https://app.qase.io/public/report/9c71f87df569b6ce48dfb60dfd6e4640dfe09788#test-cases)
+
 # Notes
 
 Metrics shown in this document are based on completed manual test executions managed through Qase and documented in this GitHub repository.
