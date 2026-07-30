@@ -28,13 +28,32 @@ Currently focusing on:
 # Portfolio Highlights
 
 - 4 OrangeHRM modules completed
-- 100+ Manual Test Cases
+- 124 Manual Test Cases
+- 124 Test Executions
+- 123 Passed • 1 Failed
+- 99.19% Pass Rate
+- 1 Confirmed Defect
 - Complete STLC documentation
 - Manual Functional Testing
 - Exploratory Testing
 - Bug Reporting
 - Test Execution Reports
 - Evidence Collection
+- Qase.io Test Management
+
+## Repository Statistics
+
+| Metric | Value |
+|---------|------:|
+| Applications | 1 |
+| Modules Tested | 4 |
+| Test Suites | 4 |
+| Test Cases | 124 |
+| Test Executions | 124 |
+| Passed | 123 |
+| Failed | 1 |
+| Pass Rate | 99.19% |
+| Bug Reports | 1 |
 
 # Repository Structure
 
@@ -60,6 +79,13 @@ QA-Portfolio
 │   ├── 06-test-summary-reports
 │   │
 │   └── evidence
+│ 
+├── Qase
+│   ├── README.md
+│   ├── test-suites.md
+│   ├── test-runs.md
+│   ├── test-metrics.md
+│   └── screenshots
 │
 ├── CHANGELOG.md
 └── README.md
