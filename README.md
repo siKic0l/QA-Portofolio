@@ -100,19 +100,21 @@ Each module follows the same documentation structure.
 ```
 Application Analysis
         ↓
-Test Plan
+Test Planning
         ↓
-Test Scenario
+Test Scenarios
         ↓
 Test Cases
         ↓
-Test Execution
+Qase Test Management
+        ↓
+Manual Execution
         ↓
 Evidence Collection
         ↓
-Bug Report
+Bug Reporting
         ↓
-Test Summary Reports
+Test Summary Report
 ```
 
 ---
