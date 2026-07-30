@@ -54,6 +54,12 @@ Each Test Run represents a complete execution cycle for one or more application 
 
 ---
 
+## Public Report
+
+Complete execution results are available on Qase.
+
+[Test Report](https://app.qase.io/public/report/9c71f87df569b6ce48dfb60dfd6e4640dfe09788#test-cases)
+
 # Notes
 
 All manual test executions were performed through Qase.
