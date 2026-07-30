@@ -169,7 +169,7 @@ The following testing techniques are applied throughout the projects:
 ### Public Report
 
 🔗 View Test Report:
-https://app.qase.io/public/report/xxxxxxxx
+[Test Report](https://app.qase.io/public/report/9c71f87df569b6ce48dfb60dfd6e4640dfe09788#test-cases)
 
 The report contains:
 
