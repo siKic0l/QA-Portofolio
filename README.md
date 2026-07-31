@@ -4,6 +4,8 @@ A collection of my Quality Assurance projects showcasing **manual testing**, **t
 
 This repository demonstrates my end-to-end QA workflow, starting from requirement analysis to test execution and defect reporting using real-world web applications.
 
+This project using test management tool with Qase.io
+
 ---
 
 # About Me
