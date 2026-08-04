@@ -1,49 +1,46 @@
 # QA Portfolio
 
-A collection of my Quality Assurance projects showcasing **manual testing**, **test documentation**, **bug reporting**, and future **automation testing** practices.
+A collection of Quality Assurance projects demonstrating structured manual testing, professional QA documentation, test execution, defect reporting, and industry-standard testing workflows.
 
-This repository demonstrates my end-to-end QA workflow, starting from requirement analysis to test execution and defect reporting using real-world web applications.
-
-This project using test management tool with Qase.io
+This portfolio showcases my end-to-end Software Testing Life Cycle (STLC), from application analysis and test planning to execution, bug reporting, evidence collection, and test management using Qase.io.
 
 ---
 
 # About Me
 
-Hi, I'm **Nurrohmi Zaki**
+Hi, I'm **Nurrohmi Zaki**.
 
 I'm a Software Engineer transitioning into Quality Assurance with a strong interest in Software Testing, Test Automation, and Quality Engineering.
 
-I enjoy analyzing software behavior, designing structured test cases, discovering defects, and improving software quality through systematic testing.
+I enjoy analyzing software behavior, designing structured test cases, identifying defects, and improving software quality through systematic testing practices.
 
-Currently focusing on:
+Current areas of focus:
 
 - Manual Testing
 - Test Documentation
-- Bug Reporting
 - Exploratory Testing
-- API Testing *(Learning)*
-- Test Automation *(Learning)*
+- Bug Reporting
+- API Testing
+- Test Automation
 
 ---
 
 # Portfolio Highlights
 
-- 4 OrangeHRM modules completed
+- OrangeHRM Manual Testing Project
+- 4 Completed Modules
 - 124 Manual Test Cases
 - 124 Test Executions
 - 123 Passed • 1 Failed
 - 99.19% Pass Rate
 - 1 Confirmed Defect
-- Complete STLC documentation
-- Manual Functional Testing
-- Exploratory Testing
-- Bug Reporting
-- Test Execution Reports
-- Evidence Collection
+- Complete STLC Documentation
 - Qase.io Test Management
+- Professional QA Documentation
 
-## Repository Statistics
+---
+
+# Repository Statistics
 
 | Metric | Value |
 |---------|------:|
@@ -57,6 +54,18 @@ Currently focusing on:
 | Pass Rate | 99.19% |
 | Bug Reports | 1 |
 
+---
+
+# Project Status
+
+Status: **Completed**
+
+This repository represents a completed Manual Testing portfolio project.
+
+Future QA projects (API Testing, Automation Testing, SQL Testing, etc.) will be developed in separate repositories to keep each portfolio focused on a specific testing discipline.
+
+---
+
 # Repository Structure
 
 ```text
@@ -67,21 +76,14 @@ QA-Portfolio
 │   └── 02-application-analysis.md
 │
 ├── manual-testing
-│   │
 │   ├── 01-test-plans
-│   │
 │   ├── 02-test-scenarios
-│   │
 │   ├── 03-test-cases
-│   │
 │   ├── 04-test-executions
-│   │
 │   ├── 05-bug-reports
-│   │
 │   ├── 06-test-summary-reports
-│   │
 │   └── evidence
-│ 
+│
 ├── Qase
 │   ├── README.md
 │   ├── test-suites.md
@@ -97,20 +99,22 @@ QA-Portfolio
 
 # QA Workflow
 
-Each module follows the same documentation structure.
+The project follows the complete Software Testing Life Cycle (STLC).
 
-```
+```text
+Requirement Analysis
+        ↓
 Application Analysis
         ↓
 Test Planning
         ↓
-Test Scenarios
+Test Scenario Design
         ↓
-Test Cases
+Test Case Design
         ↓
 Qase Test Management
         ↓
-Manual Execution
+Manual Test Execution
         ↓
 Evidence Collection
         ↓
@@ -121,7 +125,7 @@ Test Summary Report
 
 ---
 
-# Current Projects
+# Completed Project
 
 ## OrangeHRM Demo
 
@@ -129,86 +133,73 @@ Test Summary Report
 
 | Feature | Status |
 |---------|--------|
-| Login |  Completed |
+| Login | Completed |
 
----
-
-### Admin Module
+### Admin
 
 | Feature | Status |
 |---------|--------|
-| User Management |  Completed |
-| Job Titles |  Completed |
-| Organization Locations |  Completed |
-
----
-
-# Portfolio Statistics
-
-| Metric | Value |
-|---------|------:|
-| Applications Tested | 1 |
-| Modules Completed | 4 |
-| Test Scenarios | 100+ |
-| Test Cases | 120+ |
-| Executed Test Cases | 120+ |
-| Bug Reports | 1 |
-
-> Statistics will continue to grow as new testing projects are added.
+| User Management | Completed |
+| Job Titles | Completed |
+| Organization Locations | Completed |
 
 ---
 
 # Testing Artifacts
 
-This repository contains professional QA documentation including:
+This repository contains complete QA documentation including:
 
-- Requirement Analysis
+- Project Overview
+- Application Analysis
+- Test Plans
 - Test Scenarios
 - Test Cases
 - Test Execution Reports
-- Execution Evidence
-- Bug Reports
 - Test Summary Reports
+- Bug Reports
+- Testing Evidence
+- Qase Test Management Documentation
 
 ---
 
 # Testing Techniques
 
-The following testing techniques are applied throughout the projects:
+The following techniques were applied throughout the project.
 
+- Manual Testing
+- Functional Testing
 - Black Box Testing
+- Exploratory Testing
 - Equivalence Partitioning
 - Boundary Value Analysis (BVA)
 - Error Guessing
-- Exploratory Testing
 - Validation Testing
-- Functional Testing
 - UI Testing
 
 ---
 
 # Tools
 
-### Test Management
+## Test Management
 
-- This project is managed using **Qase.io** to simulate a real-world QA workflow.
+- Qase.io
 
-### Documentation
+## Documentation
 
 - Markdown
 - Git
-- Github
+- GitHub
 
-### Browser
+## Browser
 
 - Google Chrome
 - Chrome DevTools
 
-### Development
+## Development
 
 - Visual Studio Code
 
-### Evidence Collection
+## Evidence Collection
 
 - Windows Snipping Tool
 
@@ -216,102 +207,93 @@ The following testing techniques are applied throughout the projects:
 
 # Qase Integration
 
-This portfolio uses **Qase.io** as the Test Management System to simulate an industry-standard QA workflow.
+This project uses **Qase.io** as the Test Management System to simulate an industry-standard QA workflow.
 
-The following activities are managed through Qase:
+Activities managed through Qase include:
 
 - Test Suite Management
 - Test Case Management
-- Test Run Execution
+- Test Run Management
 - Manual Test Execution
 - Test Result Tracking
 - Execution Metrics
 
 ---
 
-## Public Test Report
+# Public Test Report
 
-🔗 **View Public Report**
+View the public execution report:
 
-[Test Report](https://app.qase.io/public/report/9c71f87df569b6ce48dfb60dfd6e4640dfe09788#test-cases)
+**Test Report**
+
+https://app.qase.io/public/report/9c71f87df569b6ce48dfb60dfd6e4640dfe09788#test-cases
 
 ---
 
-## Qase Dashboard
+# Qase Screenshots
 
-[Qase Dashboard](Qase/screenshots/dashboard.png)
+## Dashboard
 
-Shows an overview of the testing project, including test suites, executions, and overall progress.
+![Qase Dashboard](Qase/screenshots/dashboard.png)
+
+Provides an overview of the testing project, including test suites, executions, and overall progress.
 
 ---
 
 ## Test Suites
 
-[Test Suites](Qase/screenshots/test-suites.png)
+![Test Suites](Qase/screenshots/test-suites.png)
 
-Organizes test cases by application modules to simplify execution and maintenance.
+Shows how test cases are organized by application modules.
 
 ---
 
 ## Test Run
 
-[Test Run](Qase/screenshots/test-run.png)
+![Test Run](Qase/screenshots/test-run.png)
 
-Displays the manual execution process and execution status for every test case.
+Displays the manual execution process and execution status for each test case.
 
 ---
 
 ## Execution Summary
 
-[Execution Summary](Qase/screenshots/execution-summary.png)
+![Execution Summary](Qase/screenshots/execution-summary.png)
 
-Provides execution statistics including Passed, Failed, Blocked, and overall Pass Rate.
-
-# Current Roadmap
-
-## Completed
-
-- Authentication - Login
-- Admin - User Management
-- Admin - Job Titles
-- Admin - Organization Locations
-
-## Planned
-
-- Admin Modules (Remaining Features)
-- PIM Module
-- Leave Module
-- Time Module
-- Recruitment Module
-- API Testing
-- Automation Testing (Playwright)
-- Performance Testing
+Displays execution metrics including Passed, Failed, Blocked, and overall Pass Rate.
 
 ---
 
 # Repository Highlights
 
-Structured QA documentation
+- Structured QA Documentation
+- Complete STLC Implementation
+- Manual Functional Testing
+- Exploratory Testing
+- Test Execution Tracking
+- Evidence Collection
+- Bug Reporting
+- Qase Integration
+- Industry-Standard Documentation
 
-Real application testing
+---
 
-Manual functional testing
+# Future QA Portfolio
 
-Test execution tracking
+The following repositories are planned to expand this portfolio:
 
-Evidence collection
-
-Bug reporting
-
-Professional documentation standards
+- RESTful Booker API Testing
+- API Test Automation (Postman & Newman)
+- UI Test Automation (Playwright)
+- SQL Testing Portfolio
 
 ---
 
 # Goal
 
-The purpose of this repository is to document my learning journey while building a professional QA portfolio that reflects real testing practices used in software development teams.
+The purpose of this repository is to demonstrate practical manual testing skills using industry-standard QA documentation and workflows.
 
-As new projects are completed, this repository will continue to expand with additional applications, testing types, and automation frameworks.
+As additional QA projects are completed, this portfolio will continue to expand with separate repositories covering API Testing, Automation Testing, Database Testing, and other Quality Assurance disciplines.
 
 ---
 
@@ -319,5 +301,10 @@ As new projects are completed, this repository will continue to expand with addi
 
 **Nurrohmi Zaki**
 
-- GitHub: https://github.com/siKic0l
-- LinkedIn: [*Nurrohmi Zaki - LinkedIn*](https://www.linkedin.com/in/nurrohmi-zaki-78b447294/)
+GitHub
+
+https://github.com/siKic0l
+
+LinkedIn
+
+https://www.linkedin.com/in/nurrohmi-zaki-78b447294/
