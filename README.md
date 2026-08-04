@@ -242,7 +242,7 @@ Provides an overview of the testing project, including test suites, executions, 
 
 ## Test Suites
 
-![Test Suites](Qase/screenshots/test-suites.png)
+![Test Suites](Qase/screenshots/suites.png)
 
 Shows how test cases are organized by application modules.
 
@@ -258,7 +258,7 @@ Displays the manual execution process and execution status for each test case.
 
 ## Execution Summary
 
-![Execution Summary](Qase/screenshots/execution-summary.png)
+![Execution Summary](Qase/screenshots/execution-result.png)
 
 Displays execution metrics including Passed, Failed, Blocked, and overall Pass Rate.
 
