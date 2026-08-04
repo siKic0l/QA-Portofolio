@@ -1,14 +1,14 @@
-# Test Plan
+# OrangeHRM Manual Testing Test Plan
 
 ## Project Information
 
 | Item | Details |
 |------|---------|
 | Project | OrangeHRM Demo |
-| Testing Type | Manual Testing |
+| Testing Type | Manual Functional Testing |
 | Tester | Nurrohmi Zaki |
-| Version | 2.0 |
-| Status | In Progress |
+| Version | 3.0 |
+| Status | Completed |
 
 ---
 
@@ -18,25 +18,29 @@
 |----------|-------------|
 | 1.0 | Initial Test Plan |
 | 2.0 | Added Product Risk Analysis, Risk Mitigation Strategy, Test Prioritization, Deliverables, Assumptions, and Constraints |
+| 3.0 | Finalized project scope and updated documentation after project completion |
 
 ---
 
 # 1. Introduction
 
-This document describes the overall testing strategy for the OrangeHRM Demo application.
+This document defines the testing strategy used throughout the OrangeHRM Manual Testing project.
 
-The objective of this test plan is to define the testing scope, testing approach, priorities, schedule, and expected deliverables before the execution phase begins.
+The purpose of this Test Plan is to document the project scope, testing approach, priorities, environment, deliverables, and execution strategy before manual testing activities were performed.
+
+This document also serves as a reference for the completed Software Testing Life Cycle (STLC) implemented throughout this project.
 
 ---
 
 # 2. Objectives
 
-The objectives of this testing are:
+The objectives of this project are to:
 
-- Verify that core business features work correctly.
-- Detect functional defects before release.
-- Validate the application against expected business requirements.
-- Reduce product risks through structured manual testing.
+- Verify that selected business-critical features function correctly.
+- Detect functional defects through structured manual testing.
+- Validate application behavior against expected business requirements.
+- Demonstrate a professional manual testing workflow.
+- Produce complete QA documentation following industry-standard STLC practices.
 
 ---
 
@@ -44,27 +48,20 @@ The objectives of this testing are:
 
 ## In Scope
 
-The following modules will be covered:
+The following modules are included in this completed manual testing project:
 
-- Login
-- Forgot Password
-- Dashboard
-- Admin
-- PIM
-- Leave
-- Time
-- Recruitment
-- My Info
-- Performance
-- Directory
-- Maintenance
-- Claim
-- Buzz
-- Profile
+- Authentication - Login
+- Admin - User Management
+- Admin - Job Titles
+- Admin - Organization Locations
+
+These modules provide representative coverage of common administrative workflows including authentication, CRUD operations, validation, search functionality, configuration management, and administrative data maintenance.
+
+---
 
 ## Out of Scope
 
-The following testing activities are excluded:
+The following testing activities are excluded from this project:
 
 - Performance Testing
 - Security Testing
@@ -72,6 +69,7 @@ The following testing activities are excluded:
 - API Testing
 - Automation Testing
 - Source Code Review
+- Database Validation
 
 ---
 
@@ -81,65 +79,64 @@ The following testing activities are excluded:
 |------|---------|
 | Application | OrangeHRM Demo |
 | Browser | Google Chrome (Latest Version) |
-| Internet | Stable Internet Connection |
 | Operating System | Windows 11 |
+| Internet | Stable Internet Connection |
 | Tester | Nurrohmi Zaki |
 
 ---
 
 # 5. Test Strategy
 
-Testing will be performed manually using a risk-based testing approach.
+Testing was performed manually using a **Risk-Based Testing** approach.
 
-Activities include:
+The testing activities included:
 
-- Exploratory Testing
 - Functional Testing
+- Manual Testing
 - Positive Testing
 - Negative Testing
-- Regression Testing (if required)
+- Exploratory Testing
+- Validation Testing
+- Regression Testing (where applicable)
 
-Priority will be given to business-critical features.
+Business-critical features were prioritized throughout the execution phase.
 
 ---
 
 # 6. Entry Criteria
 
-Testing can begin when:
+Testing could begin when:
 
-- The application is accessible.
-- Test environment is ready.
-- Administrator account is available.
-- Testing scope has been defined.
-- Test Plan has been approved.
+- Application was accessible.
+- Test environment was prepared.
+- Administrator account was available.
+- Testing scope was approved.
+- Test Plan was completed.
 
 ---
 
 # 7. Exit Criteria
 
-Testing will be completed when:
+Testing was considered complete when:
 
-- All planned test cases have been executed.
-- Critical defects have been reported.
-- Testing objectives have been achieved.
-- Test Summary Report has been completed.
+- All planned test cases were executed.
+- Critical defects were documented.
+- Testing objectives were achieved.
+- Test Summary Report was completed.
+- Test execution results were documented in Qase.io.
 
 ---
 
 # 8. Product Risk Analysis
 
-The following risks were identified during the exploration phase.
+The following product risks were identified during project planning.
 
 | Feature | Potential Risk | Impact | Priority |
 |----------|----------------|--------|----------|
-| Login | User cannot access the system | High | High |
+| Login | Users cannot access the system | High | High |
 | User Management | User creation or deletion fails | High | High |
-| PIM | Employee information is stored incorrectly | High | High |
-| Leave | Incorrect leave calculation | High | High |
-| Time | Attendance records are inaccurate | Medium | Medium |
-| Recruitment | Candidate information is lost | Medium | Medium |
-| Performance | KPI or review data is incorrect | Medium | Medium |
-| Buzz | Social feed cannot create posts | Low | Low |
+| Job Titles | Incorrect job title configuration | Medium | Medium |
+| Organization Locations | Organization data becomes inconsistent | Medium | Medium |
 
 ---
 
@@ -147,78 +144,72 @@ The following risks were identified during the exploration phase.
 
 | Risk | Mitigation |
 |------|------------|
-| Authentication failure | Perform smoke testing before execution |
-| Employee data corruption | Prioritize CRUD and regression testing |
-| Leave calculation errors | Create positive and negative test cases |
-| Search functionality issues | Test multiple keyword combinations |
-| Configuration changes | Execute regression testing after configuration updates |
+| Authentication failure | Execute smoke testing before detailed testing |
+| User management issues | Prioritize CRUD validation |
+| Invalid configuration | Perform positive and negative testing |
+| Search functionality defects | Test multiple search conditions |
+| Configuration updates | Execute regression testing after changes |
 
 ---
 
 # 10. Test Prioritization
 
-Testing follows a risk-based approach.
+Testing followed a Risk-Based Testing approach.
 
 ## High Priority
 
 - Login
 - User Management
-- PIM
-- Leave
 
 ## Medium Priority
 
-- Time
-- Recruitment
-- Performance
-- Directory
-- Maintenance
-- Claim
+- Job Titles
+- Organization Locations
 
 ## Low Priority
 
-- Buzz
-- Corporate Branding
-- About
-- Support
+No low-priority modules were included in the project scope.
 
 ---
 
 # 11. Test Deliverables
 
-The following artifacts will be produced during this project.
+The following QA artifacts were produced during this project.
 
-- Test Plan
+- Project Overview
 - Application Analysis
-- Test Scenario
+- Test Plan
+- Test Scenarios
 - Test Cases
-- Test Data
-- Bug Reports
-- Test Execution Report
+- Test Execution Reports
 - Test Summary Report
+- Bug Reports
+- Testing Evidence
+- Qase.io Test Management Documentation
 
 ---
 
 # 12. Assumptions
 
-The following assumptions apply during testing.
+The following assumptions applied during testing.
 
-- OrangeHRM Demo remains available.
-- Administrator account is accessible.
-- Stable internet connection.
-- No major system changes during testing.
-- Testing is performed using a desktop browser.
+- OrangeHRM Demo remained accessible.
+- Administrator account remained available.
+- Stable internet connection was maintained.
+- No major application updates occurred during testing.
+- Testing was performed using a desktop browser.
 
 ---
 
 # 13. Constraints
 
-The following limitations apply.
+The following project limitations applied.
 
-- Source code is unavailable.
-- Database access is unavailable.
-- Only publicly available demo features are tested.
-- Performance and security testing are excluded.
+- Source code was unavailable.
+- Database access was unavailable.
+- Only publicly available demo features were tested.
+- Performance testing was excluded.
+- Security testing was excluded.
 
 ---
 
@@ -227,17 +218,37 @@ The following limitations apply.
 | Phase | Status |
 |--------|--------|
 | Application Analysis | Completed |
-| Test Planning | In Progress |
-| Test Scenario | Planned |
-| Test Case Design | Planned |
-| Test Execution | Planned |
-| Bug Reporting | Planned |
-| Test Summary | Planned |
+| Test Planning | Completed |
+| Test Scenario Design | Completed |
+| Test Case Design | Completed |
+| Manual Test Execution | Completed |
+| Evidence Collection | Completed |
+| Bug Reporting | Completed |
+| Test Summary Report | Completed |
+| Qase Test Management | Completed |
+
+---
+
+# 15. Testing Outcome
+
+The completed project achieved the following outcomes:
+
+| Metric | Result |
+|---------|--------:|
+| Modules Tested | 4 |
+| Test Cases | 124 |
+| Test Executions | 124 |
+| Passed | 123 |
+| Failed | 1 |
+| Pass Rate | 99.19% |
+| Bug Reports | 1 |
 
 ---
 
 # Conclusion
 
-This Test Plan provides the overall strategy for manually testing the OrangeHRM Demo application.
+This Test Plan documents the overall testing strategy implemented throughout the completed OrangeHRM Manual Testing project.
 
-The testing process will continue by creating detailed Test Scenarios, Test Cases, executing manual testing, documenting defects, and producing the final Test Summary Report.
+All planned testing activities were successfully completed, including planning, test design, execution, evidence collection, defect reporting, and test management using Qase.io.
+
+This repository serves as a completed Manual Testing portfolio demonstrating a structured Quality Assurance workflow following industry-standard Software Testing Life Cycle (STLC) practices.
