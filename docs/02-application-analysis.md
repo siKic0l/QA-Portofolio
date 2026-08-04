@@ -17,13 +17,15 @@ OrangeHRM is a web-based Human Resource Management System (HRMS) designed to hel
 
 The application provides multiple business modules covering employee management, attendance, leave management, recruitment, performance evaluation, reimbursement claims, and internal communication.
 
+This portfolio focuses on selected modules that best represent common business workflows and manual testing activities.
+
 ---
 
 # User Role
 
 This portfolio uses the **Administrator** account provided by the OrangeHRM Demo environment.
 
-The Administrator account provides access to nearly all system modules and administrative features, making it suitable for comprehensive end-to-end functional testing across multiple business workflows.
+The Administrator account provides access to nearly all system modules and administrative features, making it suitable for end-to-end functional testing across multiple business workflows.
 
 ---
 
@@ -126,16 +128,6 @@ Manage system configurations and administrative data.
 
 Manage employee records.
 
-### Available Features
-
-- Employee List
-- Search Employee
-- Add Employee
-- Edit Employee
-- Delete Employee
-- Reports
-- Configuration
-
 ---
 
 ## Leave
@@ -143,15 +135,6 @@ Manage employee records.
 ### Purpose
 
 Manage employee leave requests and leave records.
-
-### Available Features
-
-- Apply Leave
-- My Leave
-- Leave List
-- Entitlements
-- Reports
-- Leave Configuration
 
 ---
 
@@ -161,14 +144,6 @@ Manage employee leave requests and leave records.
 
 Manage employee attendance, working hours, and project timesheets.
 
-### Available Features
-
-- Timesheets
-- Attendance
-- Employee Reports
-- Project Reports
-- Customer Management
-
 ---
 
 ## Recruitment
@@ -176,14 +151,6 @@ Manage employee attendance, working hours, and project timesheets.
 ### Purpose
 
 Manage recruitment activities and candidate information.
-
-### Available Features
-
-- Candidates
-- Vacancies
-- Add Candidate
-- Edit Candidate
-- Delete Candidate
 
 ---
 
@@ -193,17 +160,6 @@ Manage recruitment activities and candidate information.
 
 Allow users to manage their personal information.
 
-### Available Features
-
-- Personal Details
-- Contact Details
-- Emergency Contacts
-- Dependents
-- Immigration
-- Job Information
-- Salary
-- Qualifications
-
 ---
 
 ## Performance
@@ -211,12 +167,6 @@ Allow users to manage their personal information.
 ### Purpose
 
 Manage employee performance evaluation.
-
-### Available Features
-
-- KPI Management
-- Performance Reviews
-- Performance Tracker
 
 ---
 
@@ -226,11 +176,6 @@ Manage employee performance evaluation.
 
 Search and view employee directory information.
 
-### Available Features
-
-- Employee Search
-- Employee Directory
-
 ---
 
 ## Maintenance
@@ -238,12 +183,6 @@ Search and view employee directory information.
 ### Purpose
 
 Perform administrative maintenance operations.
-
-### Available Features
-
-- Employee Data Management
-- Candidate Data Management
-- Record Search
 
 ---
 
@@ -253,13 +192,6 @@ Perform administrative maintenance operations.
 
 Manage employee reimbursement and expense claims.
 
-### Available Features
-
-- Create Claim
-- Manage Claims
-- Expense Types
-- Event Configuration
-
 ---
 
 ## Buzz
@@ -267,16 +199,6 @@ Manage employee reimbursement and expense claims.
 ### Purpose
 
 Provide an internal social collaboration platform.
-
-### Available Features
-
-- Create Post
-- Upload Photo
-- Upload Video
-- Like
-- Comment
-- Share
-- Events
 
 ---
 
@@ -322,40 +244,82 @@ The following observations were identified during the initial exploration of the
 - Search functionality is consistently available across multiple modules.
 - The Administrator role has access to nearly all system features.
 - Configuration settings are centralized within dedicated administration modules.
-- The application follows a consistent navigation structure, making feature discovery straightforward.
-- Similar page layouts and interaction patterns are reused across different modules, improving usability and reducing the learning curve.
+- The application follows a consistent navigation structure.
+- Similar page layouts and interaction patterns are reused across different modules, improving usability and consistency.
 
 ---
 
-# Potential Testing Areas
+# Functional Areas Covered
 
-Based on the application exploration, the following areas have been identified for future testing activities.
+Based on the selected project scope, the completed modules collectively cover the following functional areas:
 
-- Authentication
-- Form Validation
+- User Authentication
 - CRUD Operations
 - Search Functionality
-- Navigation
-- Role-Based Access Control
-- Input Validation
-- Session Management
-- User Interface Consistency
+- Table Sorting
+- Form Validation
+- Required Field Validation
+- Duplicate Data Validation
+- Success Notifications
+- Error Handling
+- Administrative Configuration
+- UI Consistency
 
 ---
 
 # Testing Scope
 
-The following modules are planned as part of this manual testing portfolio.
+This portfolio intentionally focuses on representative OrangeHRM modules that demonstrate the complete manual testing workflow.
 
-| Module | Status |
-|---------|:------:|
-| Login | Completed |
-| Admin | Completed |
-| PIM | ⏳ Planned |
-| Leave | ⏳ Planned |
-| Time | ⏳ Planned |
-| Recruitment | ⏳ Planned |
-| Performance | ⏳ Planned |
-| Directory | ⏳ Planned |
-| Claim | ⏳ Planned |
-| Buzz | ⏳ Planned |
+The selected modules provide sufficient complexity to showcase professional Quality Assurance practices without introducing repetitive testing across similar business modules.
+
+| Module | Coverage |
+|---------|----------|
+| Authentication - Login | User Authentication |
+| Admin - User Management | User CRUD Operations |
+| Admin - Job Titles | Configuration Management |
+| Admin - Organization - Locations | Organization Configuration |
+
+---
+
+# QA Coverage
+
+The completed project demonstrates practical experience in:
+
+- Requirement Analysis
+- Application Analysis
+- Test Planning
+- Test Scenario Design
+- Test Case Design
+- Manual Test Execution
+- Exploratory Testing
+- Evidence Collection
+- Bug Reporting
+- Test Summary Reporting
+- Test Management using Qase.io
+
+---
+
+# Scope Justification
+
+Rather than testing every module available in OrangeHRM, this project focuses on a carefully selected scope that represents the most common administrative workflows.
+
+These modules collectively demonstrate:
+
+- Authentication
+- Business Configuration
+- CRUD Operations
+- Search and Filtering
+- Validation Rules
+- Administrative Features
+- Functional Verification
+
+This approach reflects real-world QA practices, where testing is performed based on defined project scope and business priorities rather than exhaustive coverage of every available feature.
+
+---
+
+# Conclusion
+
+The selected OrangeHRM modules provide comprehensive coverage of common web application functionality and demonstrate the complete manual testing process from planning through execution and reporting.
+
+This repository represents a completed Manual Testing portfolio project and serves as a practical demonstration of industry-standard QA documentation, structured testing practices, and real-world test management using Qase.io.
